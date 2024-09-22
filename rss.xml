@@ -7,23 +7,34 @@
         <language>zh-CN</language>
         <pubDate>Sun, 22 Sep 2024 23:40:19 +0800</pubDate>
         <lastBuildDate>Sun, 22 Sep 2024 23:40:19 +0800</lastBuildDate>
-        <category>日记</category>
         <category>视频</category>
         <category>闪念</category>
         <category>焦虑</category>
-        <category>看片</category>
+        <category>日记</category>
         <category>学习</category>
-        <category>观点</category>
-        <category>溯源</category>
+        <category>看片</category>
         <category>叶修</category>
         <category>维权</category>
+        <category>溯源</category>
+        <category>观点</category>
         <category>C4D</category>
         <item>
-            <guid isPermalink="true">https://onsaki.github.io/archives/Notes/cm1dug7aw00041ki74fgnc6x9/</guid>
-            <title>时隔两年，博客终于半复活</title>
-            <link>https://onsaki.github.io/archives/Notes/cm1dug7aw00041ki74fgnc6x9/</link>
+            <guid isPermalink="true">https://onsaki.github.io/archives/Notes/notes-8/</guid>
+            <title>复活时长两年半，我是Hexo练习生</title>
+            <link>https://onsaki.github.io/archives/Notes/notes-8/</link>
             <pubDate>Sun, 22 Sep 2024 23:40:19 +0800</pubDate>
-            <description><![CDATA[  ]]></description>
+            <description><![CDATA[ &lt;p&gt;我是真没想到，一个小小的搬家行动能把我博客搞死两年。&lt;br&gt;
+起因是 22 年五月份我想把当时还在用 wordpress 的博客整站搬迁到另一个主机商的服务器上，从搬瓦工备份、打包、下载都没问题，但上传到新的服务器上之后就出了大问题，备份和恢复的过程都没问题，但就是莫名其妙的空白网页，没有报错，就是一片白。&lt;br&gt;
+之后尝试了各种办法恢复，尝试了各种各样的主机商，甚至临时接了一点独立服务器尝试，均失败。&lt;br&gt;
+侥幸几次进步是能看到主页，但所有的 css 和 js 全部时效，无法整洁的导出站点文章的 xml 文件。因为这时候我已经被折腾麻了，想换到 hexo 让自己轻松一点，但无法导出博客的文章就没办法换 hexo，我总不能从一个个布满 html 标签的文字里一点点把文字提取出来再发布到 hexo 站上。&lt;br&gt;
+于是在折腾一周后放弃复活计划，反正我那段时间陷入低谷，没有发文章的欲望，就干脆让博客死透了吧。&lt;/p&gt;
+&lt;p&gt;两年半后，我白嫖了一年亚马逊的服务器，想着最后再试试能不能先把 wordpress 的站点复活，只要能复活就立刻导出所有文章和视频，立刻重建一个 hexo 的博客。&lt;br&gt;
+这次我恢复备份的方式和以前都一模一样，就是装宝塔–新建站点–新建数据库–整站直接上传解压到网站根目录。&lt;br&gt;
+然后整个博客就神奇的、毫无 bug 的恢复了…&lt;br&gt;
+ 我你妈:cursing_face::cursing_face::cursing_face:！&lt;/p&gt;
+&lt;p&gt;最终我还是回来了。&lt;br&gt;
+我是 hexo 练习时长两年半的练习生，请多关照！&lt;/p&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Daily-Lives/life-9/</guid>
@@ -309,7 +320,7 @@ Crash Course: 学习技能&lt;br&gt;
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Notes/notes-6/</guid>
-            <title>树开的茂盛，但树下的花终会枯萎</title>
+            <title>树下的花终会枯萎</title>
             <link>https://onsaki.github.io/archives/Notes/notes-6/</link>
             <category>日记</category>
             <pubDate>Wed, 07 Jul 2021 14:50:47 +0800</pubDate>
@@ -325,7 +336,7 @@ Crash Course: 学习技能&lt;br&gt;
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Daily-Lives/life-8/</guid>
-            <title>2021-5-16 深夜</title>
+            <title>深夜Emo，也许该早点睡</title>
             <link>https://onsaki.github.io/archives/Daily-Lives/life-8/</link>
             <category>日记</category>
             <pubDate>Sun, 16 May 2021 23:15:46 +0800</pubDate>
@@ -452,15 +463,6 @@ Crash Course: 学习技能&lt;br&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://onsaki.github.io/archives/Daily-Lives/life-7/</guid>
-            <title>血亏</title>
-            <link>https://onsaki.github.io/archives/Daily-Lives/life-7/</link>
-            <category>日记</category>
-            <pubDate>Wed, 23 Dec 2020 02:08:24 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;人这一辈子 最亏的就是 模拟炒股 半个月升值了 86%&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Daily-Lives/life-6/</guid>
             <title>焦虑-001</title>
             <link>https://onsaki.github.io/archives/Daily-Lives/life-6/</link>
@@ -502,7 +504,7 @@ Crash Course: 学习技能&lt;br&gt;
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Notes/notes-3/</guid>
-            <title>《北京东路的日子》背后的故事</title>
+            <title>「北京东路的日子」背后的故事</title>
             <link>https://onsaki.github.io/archives/Notes/notes-3/</link>
             <category>溯源</category>
             <pubDate>Sun, 27 Sep 2020 16:15:41 +0800</pubDate>
@@ -897,7 +899,7 @@ Crash Course: 学习技能&lt;br&gt;
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Notes/notes-2/</guid>
-            <title>好洒脱的人</title>
+            <title>你是要成为航海王的男人！</title>
             <link>https://onsaki.github.io/archives/Notes/notes-2/</link>
             <category>叶修</category>
             <pubDate>Fri, 21 Aug 2020 02:09:55 +0800</pubDate>
@@ -1262,7 +1264,7 @@ Crash Course: 学习技能&lt;br&gt;
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Film/film-1/</guid>
-            <title>近期排片~</title>
+            <title>近期观影列表</title>
             <link>https://onsaki.github.io/archives/Film/film-1/</link>
             <category>看片</category>
             <pubDate>Fri, 03 Apr 2020 22:48:36 +0800</pubDate>

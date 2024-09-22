@@ -7,16 +7,16 @@
         <language>zh-CN</language>
         <pubDate>Tue, 19 Apr 2022 09:53:23 +0800</pubDate>
         <lastBuildDate>Tue, 19 Apr 2022 09:53:23 +0800</lastBuildDate>
-        <category>日记</category>
         <category>视频</category>
         <category>闪念</category>
         <category>焦虑</category>
-        <category>看片</category>
+        <category>日记</category>
         <category>学习</category>
-        <category>观点</category>
-        <category>溯源</category>
+        <category>看片</category>
         <category>叶修</category>
         <category>维权</category>
+        <category>溯源</category>
+        <category>观点</category>
         <category>C4D</category>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Film/film-2/</guid>
@@ -30,7 +30,7 @@
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.github.io/archives/Film/film-1/</guid>
-            <title>近期排片~</title>
+            <title>近期观影列表</title>
             <link>https://onsaki.github.io/archives/Film/film-1/</link>
             <category>看片</category>
             <pubDate>Fri, 03 Apr 2020 22:48:36 +0800</pubDate>

@@ -16,9 +16,9 @@
     <category term="观点" />
     <category term="C4D" />
     <entry>
-        <id>https://onsaki.github.io/archives/WEB/WEB/%E8%B6%81%E7%9D%80%E6%9C%88%E9%BB%91%E9%A3%8E%E9%AB%98%E6%8D%A2%E4%BA%86%E6%9C%8D%E5%8A%A1%E5%99%A8/</id>
+        <id>https://onsaki.github.io/archives/WEB/web-1/</id>
         <title>趁着月黑风高换了服务器</title>
-        <link rel="alternate" href="https://onsaki.github.io/archives/WEB/WEB/%E8%B6%81%E7%9D%80%E6%9C%88%E9%BB%91%E9%A3%8E%E9%AB%98%E6%8D%A2%E4%BA%86%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+        <link rel="alternate" href="https://onsaki.github.io/archives/WEB/web-1/"/>
         <content type="html">&lt;p&gt;新的服务器是搬瓦工的 &lt;strong&gt;KVMV3-20G-1G-1T-CA-CN2&lt;/strong&gt;，买了好几天了，一直不知道用来干嘛。昨天晚上突然顿悟，我都有一年的搬瓦工了，我还续费 vultr 作甚？&lt;/p&gt;
 &lt;p&gt;于是在子时开启了服务器的拆迁过程。&lt;/p&gt;
 &lt;p&gt;不知道是搬瓦工的问题还是宝塔面板的问题。抱他的后台显示我这个 VPS 是双核的 CPU，但是搬瓦工的后台又说我是单核的，就很让令人头大。所以昨晚看着宝塔安装 Wordpress 的时候 CPU 一直占用 50% 看着就很气。&lt;/p&gt;

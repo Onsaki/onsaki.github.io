@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://onsaki.com</id>
+    <title>丛林映象</title>
+    <subtitle>一颦一笑一回眸，一生记念。</subtitle>
+    <icon>https://onsaki.com/assets/favicon.ico</icon>
+    <link href="https://onsaki.com" />
+    <author>
+      <name>翁飒亓</name>
+    </author>
+    <updated>2025-07-29T10:56:38.873Z</updated>
+    <category term="生活" />
+    <category term="看片" />
+    <category term="电影" />
+    <category term="等死" />
+    <category term="买复活币" />
+    <entry>
+        <id>https://onsaki.com/archives/uncategorized/cmdogk5mx0001h4i7a13wf0p9/</id>
+        <title>Hello World</title>
+        <link rel="alternate" href="https://onsaki.com/archives/uncategorized/cmdogk5mx0001h4i7a13wf0p9/"/>
+        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
+&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
+</content>
+        <updated>2025-07-29T10:56:38.873Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/notes-9/</id>
+        <title>只因为一个命令，被自己蠢到哭</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/notes-9/"/>
+        <content type="html">&lt;p&gt;从去年博客复活之后又停更了大半年，真相只有一个：博客主题没弄明白。&lt;/p&gt;
+&lt;p&gt;现在用的这个主题的原作者几年前开始停更之后主题处在半瘫痪状态，很多东西作者忙于工作没时间修，我又没能力解决，所以博客在 hexo 复活之后就卡在了 99% 进度，最后的 1% 就是搜索功能。&lt;/p&gt;
+&lt;p&gt;因为博客只提供的 algolia 的搜索，而我又第一次弄这种需要在外站操作的情况，又碰巧 algolia 的网站全英文，而我是个丈育，英文全不懂，又碰巧主题原作者停更之后 algolia 的网站经历过一次改版，新建账户后没办法按主题文档介绍的那样一步一步操作，会直接进入一个五步的创建某个东西的流程。&lt;/p&gt;
+&lt;p&gt;但是！创建的东西和我需要用的功能完全无关，要选一堆我不知道干嘛的东西。114514 个小时候我终于按文档弄到了需要的 API 密钥，但是一直无法显示搜索结果。&lt;/p&gt;
+&lt;p&gt;于是博客进度卡在了 99.9%...&lt;/p&gt;
+&lt;p&gt;今天，我痛定思痛把主题从 shoka 换到了魔改版的 shokax，然后再去读主题的文档发现一个卡了我将近一年的蠢问题。&lt;/p&gt;
+&lt;p&gt;我在配置好 algolia 的 API 密钥之后，忘了执行 “hexo algolia” 这个命令，直接导致博客的数据没有上传到 algolia，所以之前虽然配置了 API 密钥，但一直无法在博客完成搜索。&lt;/p&gt;
+&lt;p&gt;我就因为少执行了一个命令，卡在 99.5% 的进度将近一年！！！&lt;/p&gt;
+&lt;p&gt;真的被自己蠢哭 QAQ~&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;你知道得太多了&#34;&gt;以后我一定仔细阅读文档，再漏字少行我就是🐶！&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <category term="hexo" scheme="https://onsaki.com/tags/hexo/" />
+        <updated>2025-07-24T10:32:45.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/notes-8/</id>
+        <title>复活时长两年半，我是Hexo练习生</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/notes-8/"/>
+        <content type="html">&lt;p&gt;我是真没想到，一个小小的搬家行动能把我博客搞死两年。&lt;/p&gt;
+&lt;p&gt;起因是 22 年五月份我想把当时还在用 wordpress 的博客整站搬迁到另一个主机商的服务器上，从搬瓦工备份、打包、下载都没问题，但上传到新的服务器上之后就出了大问题，备份和恢复的过程都没问题，但就是莫名其妙的空白网页，没有报错，就是一片白。&lt;/p&gt;
+&lt;p&gt;之后尝试了各种办法恢复，尝试了各种各样的主机商，甚至临时接了一点独立服务器尝试，均失败。&lt;/p&gt;
+&lt;p&gt;侥幸几次进步是能看到主页，但所有的 css 和 js 全部时效，无法整洁的导出站点文章的 xml 文件。因为这时候我已经被折腾麻了，想换到 hexo 让自己轻松一点，但无法导出博客的文章就没办法换 hexo，我总不能从一个个布满 html 标签的文字里一点点把文字提取出来再发布到 hexo 站上。&lt;br /&gt;
+于是在折腾一周后放弃复活计划，反正我那段时间陷入低谷，没有发文章的欲望，就干脆让博客死透了吧。&lt;/p&gt;
+&lt;p&gt;两年半后，我白嫖了一年亚马逊的服务器，想着最后再试试能不能先把 wordpress 的站点复活，只要能复活就立刻导出所有文章和视频，立刻重建一个 hexo 的博客。&lt;/p&gt;
+&lt;p&gt;这次我恢复备份的方式和以前都一模一样，就是装宝塔 -- 新建站点 -- 新建数据库 -- 整站直接上传解压到网站根目录。&lt;/p&gt;
+&lt;p&gt;然后整个博客就神奇的、毫无 bug 的恢复了...&lt;br /&gt;
+ 我你妈🤬🤬🤬！&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;最终我还是回来了。&lt;br /&gt;
+我是 hexo 练习时长两年半的练习生，请多关照！&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <updated>2024-09-22T15:40:19.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Daily-Lives/life-9/</id>
+        <title>注销微博</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Daily-Lives/life-9/"/>
+        <content type="html">&lt;p&gt;受不了微博上的傻逼了，注销眼不见为净。&lt;/p&gt;
+</content>
+        <category term="生活日常" scheme="https://onsaki.com/categories/Daily-Lives/" />
+        <category term="日记" scheme="https://onsaki.com/tags/%E6%97%A5%E8%AE%B0/" />
+        <updated>2022-04-19T03:27:46.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Study-Notes/study-11/</id>
+        <title>B站上值得学习的公开课大合集</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Study-Notes/study-11/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMjE4MjAzODUwNC9HQU90WjNhaXI=&#34;&gt;B 站上值得学习的公开课大合集&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;最近一直沉迷于 B 站，在浏览了众多纪录片和学习资源之后，又发现了一些很实用的大学公开课。&lt;/p&gt;
+&lt;p&gt;虽然现在网上课程视频很多，可是像 B 站这样一边看课程一边交流还是很 nice 的。&lt;/p&gt;
+&lt;h3 id=&#34;经济类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经济类&#34;&gt;#&lt;/a&gt; ☆经济类&lt;/h3&gt;
+&lt;p&gt;【中央财经大学】金融学（一）-- 李健、左毓秀、黄昌利等&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjgzMzY1MzQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【人民大学】曼昆 《宏观经济学》 程华 全 19 章&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1MjU2MDUw&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】财务分析与决策 - 肖星&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE5ODU0NDc4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【西南财经大学】计量经济学（庞皓）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE2MTU1NTY0&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】货币银行学 -- 黄益平主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMVJ4NDExTDdveA==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中南财经政法大学】货币金融学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIzMTYyNDYz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】马克思主义政治经济学原理&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE4OTI2NzY4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中南财经政法大学】会计学原理 -- 唐国平龚翔等老师&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIwNDAwNzYy&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【斯坦福大学】经济学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzOTc1MTE3&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【香港大学】美国经济危机的反思&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzODEyMTMz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【华东师范大学】经济地理学（完）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIyMjA1ODQ0&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;法律类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#法律类&#34;&gt;#&lt;/a&gt; ☆法律类&lt;/h3&gt;
+&lt;p&gt;【北京大学】刑法总论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMjQ4MTYy&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】犯罪心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE0OTAxODE1&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】微表情 心理应激微反应刑事侦查应用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1MjE2NzY2&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】刑法分论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMjQ4NjY2&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】民事诉讼法庭审案例点评 （上）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1OTAwMTU0&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国人民大学】穿越今古的法律智慧&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1ODEwOTA5&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】知识产权法学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1MjE3OTY1&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【西南政法大学】中国法制史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1ODEwMjIx&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【上海交通大学】法与社会&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg5MTYyOTY=&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;心理学类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#心理学类&#34;&gt;#&lt;/a&gt; ☆心理学类&lt;/h3&gt;
+&lt;p&gt;【耶鲁大学】心理学导论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg2Mzg3&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中科院】心理学与生活&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIzMTYwMTYx&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【加州大学伯克利分校】社会认知心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1NzA1MzUz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【电子科技大学】管理心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjc1ODM2ODk=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【哈佛大学】幸福课积极心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjk5MTY1ODY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【南开大学】心理学与生活 管健副教授主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE2ODY3Mzkz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【斯坦福大学】如何像心理学家一样思考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIyNjQyMTEz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【耶鲁大学】关于食物的心理学、生物学和政治学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjczMjI0Nw==&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;哲学类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#哲学类&#34;&gt;#&lt;/a&gt; ☆哲学类&lt;/h3&gt;
+&lt;p&gt;【武汉大学】西方哲学史 赵林 邓晓芒&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjY5MjM5NzglMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 马克思主义哲学史 46 讲 主讲 - 吴晓明&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNTA0NTAwJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 裘锡圭 王国维系列讲座：老子与尼采&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg2NzEzNDAlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】 社会学概论 65 集，卢晖临主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzNDg4MTYzJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】西方近现代史思想史 秦晖 教授&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjY1MDc5MjIlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】秦晖公开课：中国思想史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjcxODMyOTglMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 庄子精读 全 48 讲 主讲 - 陈引驰&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjExMDM4ODc5JTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【南京大学】 欧陆哲学与英美哲学 主讲 - 陈亚军。王恒&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNTUyNjAxJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 丁耘老师，理想国导读&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjc0ODc5MTIlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【武汉大学】 中国古典哲学名著选读 主讲 - 杜小安&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjExNTc5OTk0JTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 当代外国哲学 主讲 - 徐英瑾&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNTI3NjMyJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;文化艺术类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文化艺术类&#34;&gt;#&lt;/a&gt; ☆文化艺术类&lt;/h3&gt;
+&lt;p&gt;【清华大学】杨琪：艺术学原理与美术鉴赏&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjQ2MTI3MjMlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】西方美术史（全 26 讲）丁宁&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzMDc0MTE3&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【西南交通大学】 中国衣裳 —— 传统服装文化&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIyMDU1MDU2&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【台湾清华大学】中国历史的演变与发展（中国通史）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjQ2MTI3MjMlMkY=&#34;&gt;网页链&lt;/span&gt;&lt;br /&gt;
+【清华大学】 怎样研究中国家庭史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMzI2ODAwJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】名画百幅赏析&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjU0NTc1MzglMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】张夫也：外国工艺美术史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE0MzUzNzM4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】刘怀勇：画家学习书法&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNDA3MjI1JTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【台湾大学】汉书&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjYyODIwNzU=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】审美的历程&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1OTc0Nzky&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】中国当代文学史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg5NjM3ODQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】探秘《红楼梦》全 12 集 教授郭建主&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjM2MTY2NzI=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】中国文学批评史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzNjQ3NjE4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北师大】中国古代文学史（唐代部分）康震教授&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMTMyODMx&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北师大】中国古代文学史（元明清部分）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMTY2MjQ0&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【陕师大】中国古代文学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE4NTYyODUy&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】葛剑雄老师：历史地理与中国人口史研究&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIxNzU3NDI2&#34;&gt;网页链接&lt;/span&gt;收起&lt;/p&gt;
+</content>
+        <category term="学习笔记" scheme="https://onsaki.com/categories/Study-Notes/" />
+        <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
+        <updated>2022-04-19T02:08:38.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/notes-7/</id>
+        <title>发现了一个可以「自制Emoji表情」的网站！！</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/notes-7/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNjEzOTcyODU2Ni9IY3UzZzlHYkk=&#34;&gt;发现了一个可以【自制 emoji 表情】的网站！！&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;发现了一个可以【自制 emoji 表情】的网站！！ 可以随心搭配脸型、眼睛、嘴和装饰，甚至支持本地上传图片做素材&lt;img data-src=&#34;https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/c9/2018new_chongjing_org.png&#34; alt=&#34;[憧憬]&#34; title=&#34;[憧憬]&#34; /&gt; 存成图片后还能手动添加到某信表情包～ * 传送门：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZwaGxudG4uY29tJTJGZW1vamlidWlsZGVyJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <updated>2022-04-19T01:55:07.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Film/film-2/</id>
+        <title>听说维密秀要取消了</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Film/film-2/"/>
+        <content type="html">&lt;p&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMTQwMTUyNzU1My9JaHFwSDlvUDg=&#34;&gt;听说维密秀要取消了。&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2018:288b3a2d9b34212ff66dcd3d50360e4b2c96fb0c 2017:2c39ae1522ca69539107a2f81aeb9bf1befa6674 2016:3275ec9463bf3fb7ecd20d4db7a8380f04343667 2015:e74c873b56c3dc982f22540ee620e50ad060600e 2014:6f30f280619f34b82e0916631c5f68c30b6bc60a 2013:ac9a21a2becc01fc61e5f90c99046980d9feddee 2012:8e0fd7b0f6645c768ffad2a2bc0b355676539ee6 2011:4fdd6c23960dc50ab1649dbc7fde39361ea78c3a 2010:8deb0a6f5408b246b2adcb2f3ab0d7c3cc39075b&lt;/p&gt;
+</content>
+        <category term="观影" scheme="https://onsaki.com/categories/Film/" />
+        <category term="看片" scheme="https://onsaki.com/tags/%E7%9C%8B%E7%89%87/" />
+        <updated>2022-04-19T01:53:23.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Study-Notes/study-10/</id>
+        <title>如何用10分钟建立基于加密稳定币的付费阅读网站</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Study-Notes/study-10/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vdHRhcnRpY2xlL3Avc2hvdz9pZD0yMzA5NDA0NDY3MjYxMDAyODc1MTU5&#34;&gt;如何用 10 分钟建立基于加密稳定币的付费阅读网站&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://wx3.sinaimg.cn/large/40dfde6fly1gbh6u4ci91j20rs0fmwp2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;本文将介绍一种通过 WordPress 插件和 FOUSDT（ 一种加密稳定币，约等值于美元 ）架设付费阅读服务的方式。&lt;/p&gt;
+&lt;p&gt;文章包含以下内容：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;获得 WordPress&lt;/li&gt;
+&lt;li&gt;安装 Fo-Pay 插件&lt;/li&gt;
+&lt;li&gt;在发布文章时启用付费阅读&lt;/li&gt;
+&lt;li&gt;调整注册设置，让用户注册更简单&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;获得-wordpress&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#获得-wordpress&#34;&gt;#&lt;/a&gt; 获得 WordPress&lt;/h2&gt;
+&lt;p&gt;最简单的方式是直接购买 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3b3JkcHJlc3MuY29tJTJG&#34;&gt;wordpress.com&lt;/span&gt; 的托管版本，这样不需要自己安装。如果你没有现成的服务器，而且不懂技术，这是最好的选择。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/eb59b0f188f5a8f618917bcd46a75fdd&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;但需要注意以下几点：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;国内网络访问不太顺畅。&lt;/li&gt;
+&lt;li&gt;只有 25 美金每月的商务版才能上传插件。&lt;/li&gt;
+&lt;li&gt;由于作者没有商务版，我们要用到的插件并没有在其平台上测试过。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;所以这个方案留给土豪们。&lt;/p&gt;
+&lt;p&gt;退而求其次，我们可以选择在内置了预装镜像的云平台进行购买。比如 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZtLmRvLmNvJTJGYyUyRmFlOTBjN2Y1NzlmYw==&#34;&gt;DigitalOcean&lt;/span&gt; ，在创建 Droplets 时，点击 Markectplace 就可以看到。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/d7cd3cdc9e4d0bd2801135b52ba78da2&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;如果你只是想先在电脑上测试，那么可以下载 bitnami 的安装包。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZiaXRuYW1pLmNvbSUyRnN0YWNrJTJGd29yZHByZXNz&#34;&gt;https://bitnami.com/stack/wordpress&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;在同一个页面，也介绍了如何通过 Docker 镜像来安装。这要求你会使用命令行工具。由于细节过于技术化，本文就不展开了。&lt;/p&gt;
+&lt;h2 id=&#34;安装-fo-pay-插件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装-fo-pay-插件&#34;&gt;#&lt;/a&gt; 安装 FO-Pay 插件&lt;/h2&gt;
+&lt;p&gt;在成功安装 WordPress 后，以管理员身份登入，进入仪表盘。在插件菜单中选择「安装插件」。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/867b15b27fe4200a798c1b33c5bb18b5&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击「上传插件」按钮，把 Fo-pay.zip 上传上来。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/8608b35a507aa3b67ac0f2fcc6138732&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;上传完成后，启用插件。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/fb24567d2fbf66773f67efecaa683511&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;然后我们需要进行必要的配置。&lt;/p&gt;
+&lt;p&gt;点击仪表盘「设置」菜单的「FO 支付设置」进入设置界面。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/8a0ac33a1a703ace29eaa254c96bc811&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;设置很简单，收款账户当然就是收钱用的了。没有 FIBOS 账户的同学可以去下载一个 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3YWxsZXQuZm8lMkZ6aC1jbiUyRg==&#34;&gt;FO 钱包&lt;/span&gt;，可以免费生成一个。&lt;/p&gt;
+&lt;p&gt;博客唯一码稍微难以理解一些。简单的说就是，插件是通过检查收款交易中的备注信息来确定是否付款的。如果我们有多个博客都用一个收款账户，就会出现文章 id 重复的情况。所以会把博客唯一码作为前缀来区分。&lt;/p&gt;
+&lt;p&gt;如果你理解不了上边这段文字，只要随便填一个短数字就好了。&lt;/p&gt;
+&lt;p&gt;记得保存更改。&lt;/p&gt;
+&lt;h2 id=&#34;在发布文章时使用付费阅读&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在发布文章时使用付费阅读&#34;&gt;#&lt;/a&gt; 在发布文章时使用付费阅读&lt;/h2&gt;
+&lt;p&gt;之后我们就可以在发布文章是使用付费阅读了。点击仪表盘中的「写文章」进入编辑器界面。然后再右侧的三点菜单中选择「选项」，把「高级面板」中的「自定义字段」选上，然后保存。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/f0f5b0263b9c744b65df64a23c2974f9&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这样在编辑框下边会出现一个「自定义字段」表单。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/d032491a4cee20b63767aa88e9a4ed1f&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在「自定义字段」表单中，选择「输入新栏目」，名称为「fo-usdt-price」，值为文章对应的价格，单位是分。由于 FOUSDT 约等于美元，所以这里填 100，就是大概 1 美元的价格。&lt;/p&gt;
+&lt;p&gt;注意第一次添加自定义字段栏目后，再发布文章可以直接从下拉框中选择。&lt;/p&gt;
+&lt;p&gt;免费文章不选择此字段，或者值写成 0 都行。&lt;/p&gt;
+&lt;p&gt;在文章中，付费内容使用下图的标签进行包裹。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://wx4.sinaimg.cn/large/40dfde6fly4gbh6kma5z9j206f01xjr7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;当文章中没有此标签时，全文会被认为都是付费内容。由于新版 WordPress 启用了区块编辑器，你可以将 pay 标签分到两个文本区块中，这样中间的区块都会被认为是付费内容。&lt;/p&gt;
+&lt;h2 id=&#34;调整注册策略让用户注册更简单&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调整注册策略让用户注册更简单&#34;&gt;#&lt;/a&gt; 调整注册策略，让用户注册更简单&lt;/h2&gt;
+&lt;p&gt;由于付费阅读插件是基于用户的，所以我们还要调整下默认的用户注册策略。&lt;/p&gt;
+&lt;p&gt;首先在仪表盘→设置→常规页面，将成员资格后边的「任何人都能注册」选上；然后指定新注册用户为「订阅者」。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/aac217d7e83879b234329a990bd19ccc&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;面向海外用户的业务到这里就算完成了。但如果也有部分中国大陆的用户使用的业务，我们需要改掉 WordPress 注册时验证邮箱的功能。因为大陆的邮箱业务达到率是非常差的。&lt;/p&gt;
+&lt;p&gt;这时候我们可以安装 User Registration 插件。进入仪表盘→插件→安装插件 页面，在右侧的搜索框中输入 「 User Registration 」，点击框出的那个插件进行安装。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/563f399bf5765ab284e53249b6c7eb82&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;注意有时候 WordPress 中国区的代理经常负载高，可能出现 too many connections 错误。这时候只要刷新页面重新点「现在安装」按钮就可以了。当然你也可以本地电脑切换网络下载后，直接上传上去。&lt;/p&gt;
+&lt;p&gt;安装并激活后，在仪表盘左侧菜单会出来一个「用户注册」菜单，点击设置。将「用户登录选项」选择为「注册后自动登录」或者「注册后手动登录」。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/b9c005ffde8f2a41e35ae24aba211ba3&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;这样插件就会创建一个名为「注册」的新页面，通过这个页面注册的用户是无需走邮件确认流程的。&lt;/p&gt;
+&lt;p&gt;如果你使用的是默认的 2020 模板，那么在右上角应该能看到这个注册链接。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/aa34f4b460d6e8d9f8f2fa333525e160&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;再来处理最后一个细节。在默认的功能小组件（widget）里边，有一个叫「功能」的区块，它里边的注册链接还是 WordPress 原来的。进入仪表盘→外观→小工具。&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/ab1dfec6999e37dab698200700783443&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;在 「页脚 #2」中把「功能」一项去掉。当然，你也可以手工在加一个「文本」区块，把注册和登录链接都写上。&lt;/p&gt;
+&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
+&lt;p&gt;到这里，我们的付费阅读服务就搭建完成了。采用 FOUSDT 可以全球转账，快速又安全，而且没有手续费。&lt;/p&gt;
+&lt;p&gt;不放心持有 USDT 的同学，可以通过 UUEX 或者去中心化 OTC Dapp 兑换为美金。后者也没有手续费的，但一美金会有几分钱人民币的损耗。&lt;/p&gt;
+&lt;p&gt;通过自己搭建的 WordPress ，可以完全控制一切，不用像在别人的平台上那样看人脸色、受人牵制。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;让创作者们得到应有的、开放的、自由的创作环境，并在全球范围内，通过受众的付费支持获得持续的发展。​&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;这是我编写这个插件的初衷。希望它可以帮到你。&lt;/p&gt;
+&lt;p&gt;插件下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGZWFzeWNoZW4lMkZmby1wYXklMkZyZWxlYXNlcw==&#34;&gt;https://github.com/easychen/fo-pay/releases&lt;/span&gt;&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;PS:  如果你想体验下支付过程，可以试试这篇约 1 美分的付费文章。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cCUzQSUyRiUyRmZvLnNsaWRlY2hhbi5jb20lM0E4MDg4JTJGMjAyMCUyRjAyJTJGMDElMkZmby1wYXktdGVzdDAwMiUyRg==&#34;&gt;http://fo.slidechan.com:8088/2020/02/01/fo-pay-test002/&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="学习笔记" scheme="https://onsaki.com/categories/Study-Notes/" />
+        <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
+        <updated>2022-04-19T01:47:56.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Study-Notes/study-9/</id>
+        <title>强烈推荐！少年今天给大家安利一门课程十分钟速成课系列Crash Course！！！</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Study-Notes/study-9/"/>
+        <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNTUzODM4NzcxNi9JdUNSeGJBdTQ=&#34;&gt;https://weibo.com/5538387716/IuCRxbAu4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;每天只要 10 分钟，就能快速掌握一个知识点。&lt;/p&gt;
+&lt;p&gt;这门课程从一战起因，到牛顿定律，再到宇宙起源，世界之大，几乎包含了你想要的所有知识点。&lt;/p&gt;
+&lt;p&gt;由 Hank Green 和 John Green 在 Youtube 上制作的免费系列课程，每集大约在 10-15 分钟，穿插一些无厘头搞笑段子和精良动画，简明扼要、深入浅出的讲大量的知识点，同时也是个锻炼英语的好时机！要详细理解这些知识点需要反复听，记笔记，不懂的地方自己找其他的资料补充到笔记里。&lt;/p&gt;
+&lt;p&gt;比如心理学系列中，色彩缤纷的画面让你移不开眼睛，全神贯注的听 Hank Green 的分析。&lt;/p&gt;
+&lt;p&gt;哲学系列里，常有震撼人心的句子。&lt;/p&gt;
+&lt;p&gt;你不能真的说，“杀不死你的会使你更强大”。&lt;br /&gt;
+因为有时候，恶确实会杀死我们。&lt;br /&gt;
+而恶在杀死我们前，我们来不及从所受的苦难中成长和学习。&lt;/p&gt;
+&lt;p&gt;下面放上链接合集。&lt;/p&gt;
+&lt;h3 id=&#34;一-文学艺术篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-文学艺术篇&#34;&gt;#&lt;/a&gt; 一、文学艺术篇&lt;/h3&gt;
+&lt;p&gt;Crash Course：English Literature 英语文学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav7201377%3Ffrom%3Dsearch%26seid%3D4797321874374009048&#34;&gt;【十分钟速成课：英语文学】第 01 集：如何阅读 为何阅读&lt;/a&gt;&lt;br /&gt;
+ Crash Course：Film History 电影史&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav14488202%3Ffrom%3Dsearch%26seid%3D13065298161580124245&#34;&gt;【合集】十分钟速成课・电影史 全 16 期 + 预告 + 花絮&lt;/a&gt;&lt;br /&gt;
+ Crash Course：Film Criticism 电影鉴赏&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav18579573%2F%3Fspm_id_from%3D333.788.videocard.1&#34;&gt;【十分钟速成课・电影鉴赏】第 01 期：《公民凯恩》&lt;/a&gt;&lt;br /&gt;
+Crash Course：Media literacy 媒介素养&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav32177692%3Ffrom%3Dsearch%26seid%3D18266807916044342193&#34;&gt;【完结 - 双语】十分钟速成课 - 传播学 (媒介素养)(12 集全 + 预告)&lt;/a&gt;&lt;br /&gt;
+ Crash Course：Literature 文学（无字幕版）&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav73954221%3Ffrom%3Dsearch%26seid%3D7997750057756967940&#34;&gt;# 十分钟速成课 - 合集 - 文学（1-4 季全） #Crash Course - Literature&lt;/a&gt;&lt;br /&gt;
+Crash Course：Theater and Drama 剧院与戏剧（无字幕版）&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav85108235%3Ffrom%3Dsearch%26seid%3D2459602787592732141&#34;&gt;# 十分钟速成课 - 合集 - 剧院与戏剧 #Crash Course - Theater and Drama&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;二-经济篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-经济篇&#34;&gt;#&lt;/a&gt; 二、经济篇&lt;/h3&gt;
+&lt;p&gt;Crash Course：Economics 经济学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav5525125&#34;&gt;【合集】10 分钟速成课：经济学【预告 + 全 35 集 + 花絮】&lt;/a&gt;&lt;br /&gt;
+Crash Course：Intellectual Property 知识产权&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav5490679&#34;&gt;【合集】10 分钟速成课：知识产权【全 7 集 + 花絮】&lt;/a&gt;&lt;br /&gt;
+Crash Course: Business soft skills 商业技能&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav71062297%3Ffrom%3Dsearch%26seid%3D1620848213513580034&#34;&gt; #十分钟速成课 - 合集 - 商业技能 #Crash Course - Business soft skills&lt;/a&gt;&lt;br /&gt;
+Crash Course：Entrepreneurship 创业&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav85233281%3Ffrom%3Dsearch%26seid%3D15491578452390169328&#34;&gt;【商业速成课：创业】Entrepreneurship - [18 集全 / 中英双语] - Crash Course Entrepreneurship&lt;/a&gt;&lt;br /&gt;
+Crash Course：Statistics 统计学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav84276673%3Ffrom%3Dsearch%26seid%3D11469756481756854633&#34;&gt;【统计学速成课】Statistics - [45 集全 / 中英双语] - Crash Course Statistics&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;三-历史文化篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-历史文化篇&#34;&gt;#&lt;/a&gt; 三、历史文化篇&lt;/h3&gt;
+&lt;p&gt;Crash Course: Big History Season 大历史&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav28126050%3Ffrom%3Dsearch%26seid%3D15319985364136653354&#34;&gt; Crash Course--《大历史》&lt;/a&gt;&lt;br /&gt;
+Crash Course: World History 世界历史&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav12659063%3Ffrom%3Dsearch%26seid%3D7717032311513538187&#34;&gt;【Crash Course】 世界历史第二季【中英双重字幕】&lt;/a&gt;&lt;br /&gt;
+Crash Course: European History 欧洲史&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav49174379%3Ffrom%3Dsearch%26seid%3D596879539930758907&#34;&gt;【十分钟速成课 - 欧洲史】第 1 集：欧洲中世纪&lt;/a&gt;&lt;br /&gt;
+ Crash Course: US History 美国历史&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav9082775%3Ffrom%3Dsearch%26seid%3D15364224398572202684&#34;&gt;【新坑】十分钟速成课・美国史 第 01 期：原住民与西班牙人&lt;/a&gt;&lt;br /&gt;
+ Crash Course: World Mythology 世界神话&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav8694513%3Ffrom%3Dsearch%26seid%3D694242470329494531&#34;&gt; [合集] 10 分钟速成课：世界神话 [Crash Course World Mythology][Preview-E39]&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;四-社科篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-社科篇&#34;&gt;#&lt;/a&gt; 四、社科篇&lt;/h3&gt;
+&lt;p&gt;Crash Course: Philosophy 哲学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav13762839&#34;&gt; 10 分钟速成课：哲学【预告 + 全 46 集 + 花絮】【720P 高清双语】&lt;/a&gt;&lt;br /&gt;
+Crash Course: Psychology 心理学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav1786361&#34;&gt;【合集】10 分钟速成课：心理学【预告 + 全 40 集 + 花絮】&lt;/a&gt;&lt;br /&gt;
+Crash Course: Sociology 社会学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav14718337&#34;&gt;【10 分钟速成课：社会学】第 1 集 - 什么是社会学？&lt;/a&gt;&lt;br /&gt;
+Crash Course：Government and Politics 美国政府与政治&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav6206346%3Ffrom%3Dsearch%26seid%3D14303470966885405390&#34;&gt; Crash Course Government and Politics 十分钟速成课美国政府和政治（29 集不全，共 48&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;五-理工篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#五-理工篇&#34;&gt;#&lt;/a&gt; 五、理工篇&lt;/h3&gt;
+&lt;p&gt;Crash Course: History of Science 科学史&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav54731956%3Ffrom%3Dsearch%26seid%3D11492583066897099362&#34;&gt; #十分钟速成课 - 合集 - 科学史 #Crash Course - History of science&lt;/a&gt;&lt;br /&gt;
+Crash Course: Computer Science 计算机科学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav21376839%3Ffrom%3Dsearch%26seid%3D5764616649967810746&#34;&gt;【计算机科学速成课】[40 集全 / 精校] - Crash Course Computer Science&lt;/a&gt;&lt;br /&gt;
+Crash Course: Engineering 工程学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav54722755%3Ffrom%3Dsearch%26seid%3D7300731158273779171&#34;&gt; #十分钟速成课 - 合集 - 工程学 #Crash Course - Engineering&lt;/a&gt;&lt;br /&gt;
+Crash Course: Physics 物理学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav54756829%3Ffrom%3Dsearch%26seid%3D12013790176203636157&#34;&gt; #十分钟速成课 - 合集 - 物理 #Crash Course - Physics&lt;/a&gt;&lt;br /&gt;
+Crash Course: Biology 生物学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav8878228%3Ffrom%3Dsearch%26seid%3D5283644865738767204&#34;&gt; [熟肉] 十分钟生物学 Crash Course Biology&lt;/a&gt;&lt;br /&gt;
+Crash Course: Anatomy&amp;amp;Physiology 解剖与生理&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav4722660&#34;&gt;【合集】10 分钟速成课：解剖与生理【预告 + 全 47 集 + 花絮】【720P 高清双语】&lt;/a&gt;&lt;br /&gt;
+Crash Course: Ecology 生态学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav5254400%3Ffrom%3Dsearch%26seid%3D1124746317417131219&#34;&gt;【Crash Course】十分钟生态学&lt;/a&gt;&lt;br /&gt;
+ Crash Course: Chemistry 化学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav3875938%3Ffrom%3Dsearch%26seid%3D5361076561064558414&#34;&gt;【crash course】十分钟速成课：化学 第 1 集 — 原子核&lt;/a&gt;&lt;br /&gt;
+ Crash Course：Astronomy 天文学&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav4685060%3Ffrom%3Dsearch%26seid%3D5760243852894548&#34;&gt;天文学速成班 [Crash Course Astronomy]&lt;/a&gt;&lt;br /&gt;
+ Crash Course: AI 人工智能&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav62089571%3Ffrom%3Dsearch%26seid%3D2356848379000721332&#34;&gt;【十分钟速成课：人工智能】第 0 集 - 简介&lt;/a&gt;&lt;br /&gt;
+ Crash Course：Machine Learning by Google 谷歌机器学习&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav20229263%3Ffrom%3Dsearch%26seid%3D10870393590938795882&#34;&gt; Google 机器学习速成教程 Machine Learning Crash Course by Google&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;六-其他篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六-其他篇&#34;&gt;#&lt;/a&gt; 六、其他篇&lt;/h3&gt;
+&lt;p&gt;Crash Course：Games 游戏&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav20656596%3Ffrom%3Dsearch%26seid%3D2733908424857578794&#34;&gt;【双语・完结】十分钟速成课：游戏（29 集全）&lt;/a&gt;&lt;br /&gt;
+Crash Course: 学习技能&lt;br /&gt;
+&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav16785517%3Ffrom%3Dsearch%26seid%3D3815211530660746201&#34;&gt;【合集】10 分钟速成课：学习技能【预告 + 全 10 集】【720P 高清双语】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;视频配合笔记使用体验更佳。大家一定要做好笔记哦～收起&lt;/p&gt;
+</content>
+        <category term="学习笔记" scheme="https://onsaki.com/categories/Study-Notes/" />
+        <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
+        <updated>2022-04-19T01:39:11.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Graphic-Design/gd-1/</id>
+        <title>开源项目SkyAI可对普通视频“换天”</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Graphic-Design/gd-1/"/>
+        <content type="html">&lt;p&gt;让你的视频变成科幻大片，效果非常震撼 项目：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20vaml1cGluamlhL1NreUFS&#34;&gt;github.com/jiupinjia/SkyAR&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="设计相关" scheme="https://onsaki.com/categories/Graphic-Design/" />
+        <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
+        <updated>2022-04-19T01:32:06.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/notes-6/</id>
+        <title>树下的花终会枯萎</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/notes-6/"/>
+        <content type="html">&lt;p&gt;前几天叶修的生日，上微博上看了一眼，原来他过生日的地方他们早就知道了。&lt;/p&gt;
+&lt;p&gt;恰巧他过生日那天看了马里奥的视频，后面一大部分是骑着自行车的第一视角闲聊。&lt;/p&gt;
+&lt;p&gt;而他配的 BGM 正式叶修常用的，配上马里奥讲事情的画面，莫名的想到叶修。&lt;/p&gt;
+&lt;p&gt;不清楚马里奥是不是又纪念的意思所以拍了那期视频，但是那种配合着舒缓的音乐说生活，说工作。正是我们这些粉丝已经几年没有感受到的氛围，很是怀念。&lt;/p&gt;
+&lt;p&gt;不知道叶修在海上有没有在拍视频，有没有记录他的航海生活。应该还是那种平淡的讲述，可能还是那个不会大声说话的叶修。&lt;/p&gt;
+&lt;p&gt;马里奥的那段风格再像叶修他也始终是马里奥，是马里奥自己的记录。&lt;/p&gt;
+&lt;p&gt;不出意外的话要几十年后才能看到叶修的视频了，那时候一定很激动。&lt;/p&gt;
+&lt;p&gt;希望他在海上有风有浪，无惊无险。&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <category term="日记" scheme="https://onsaki.com/tags/%E6%97%A5%E8%AE%B0/" />
+        <updated>2021-07-07T06:50:47.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Daily-Lives/life-8/</id>
+        <title>深夜Emo，也许该早点睡</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Daily-Lives/life-8/"/>
+        <content type="html">&lt;p&gt;不管自己的情绪怎么陷入低谷，自己总是会有办法排解，或者逃避情绪。&lt;/p&gt;
+&lt;p&gt;有时候过程会比较漫长，但总是有办法爬出来。&lt;/p&gt;
+&lt;p&gt;最难受的是看见别人一点点的陷进去，自己帮不到什么，只能眼睁睁地看着。&lt;/p&gt;
+&lt;p&gt;如果只是情绪低落，或许可以帮着走出来。&lt;/p&gt;
+&lt;p&gt;但不只是情绪问题，更多的是病症，是无法抗拒的生理病变。&lt;/p&gt;
+&lt;p&gt;不想愿世界没有焦虑抑郁，只是想愿自己在乎的人没有这些鬼东西折磨。&lt;/p&gt;
+&lt;p&gt;希望他们可以毫无负担的开心快乐。&lt;/p&gt;
+&lt;p&gt;仅此而已。&lt;/p&gt;
+</content>
+        <category term="生活日常" scheme="https://onsaki.com/categories/Daily-Lives/" />
+        <category term="日记" scheme="https://onsaki.com/tags/%E6%97%A5%E8%AE%B0/" />
+        <updated>2021-05-16T15:15:46.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Perspectives/ppt-2/</id>
+        <title>傻逼才应该去死在战场上</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Perspectives/ppt-2/"/>
+        <content type="html">&lt;p&gt;我从来都不是愤青，也很反感愤青，无理爱国什么的尤其反感。&lt;/p&gt;
+&lt;p&gt;但这次网上一些阴阳怪气看着属实气人，你可以质疑军队洗脑是否有人权，可以质疑各种管理上的问题，但这种时候跳出来说那些阴阳怪气的属实恶心。&lt;/p&gt;
+&lt;p&gt;我也很反感动不动就是一个多月的刷屏，但刷就刷了，这不是单单给网友看的。这也是给他们的亲属一个交代。告诉亲属，他们没有白白牺牲，也不会忘记他们，也本不应该忘记他们。&lt;/p&gt;
+&lt;p&gt;英雄不能是一个群体，英雄应该是一个个名字，一个个鲜活的人，他们需要被记住，哪怕有些牺牲从数量上看起来不值得。但也必须被记住，记住的不能是英雄两个字，而是一个个名字！&lt;/p&gt;
+&lt;p&gt;就连玩个游戏也会有人主动保护队友，哪怕是牺牲。现实中这种人更不会少，他可能前一秒还在骂你是傻逼，后一秒看到你遇到危险就会去救你。这是一个正常人都会有的感情。&lt;/p&gt;
+&lt;p&gt;生命大于一切，这是一个有感情有道德的人都应该明白的。&lt;/p&gt;
+&lt;p&gt;但有些人就是不明白，或者说装不明白。&lt;/p&gt;
+&lt;p&gt;动不动就是武统台湾，炸平香港的。人命在他们眼里不如草芥，伤亡对他们来说只是一条条热门而已。&lt;/p&gt;
+&lt;p&gt;战争从来都是伴随着死亡的，这个死亡不分正邪，且人人平等。我想不通那些天天想着打仗的人真实的想法，可能我们有生殖隔离，无法互相理解。&lt;/p&gt;
+&lt;p&gt;在他们眼里战争只是两个字？战争两个字的哪一笔不是用血写出来的？战争史的哪个字不是用人命堆出来的？好战的人都这么舍生忘死吗？&lt;/p&gt;
+&lt;p&gt;就算是军队里的人也一样，任何人都不应该好战。军队最理想的场景就是威慑，威慑别人别来惹我，而不是时刻想着炸平一些。&lt;/p&gt;
+&lt;p&gt;看你不顺眼就宰了你，不服就宰了你，这和纳粹有区别？&lt;/p&gt;
+&lt;p&gt;军队不应该是保家卫国吗？什么时候让这群人渲染成杀戮机器了？&lt;/p&gt;
+&lt;p&gt;标题就是我认为这些好战分子的最好归宿。&lt;/p&gt;
+&lt;p&gt;国家不是有网络监控吗？不是有庞大的监管体系吗？那筛选出来这些好战的人不难吧？&lt;/p&gt;
+&lt;p&gt;我建议全世界所有国家都应该用监管体系干一件事，就是筛选出好战的人，这些天天喊着荡平一切的人，爱好和平的人握手言和，好好发展。&lt;/p&gt;
+&lt;p&gt;让这些爱好战争的人全部参与到战争中去。你们不是爱打吗？不是喜欢上战场吗？不是喜欢战争吗？那战争和战场就全都交给你们，不牵连任何人。&lt;/p&gt;
+&lt;p&gt;各个有争议的国家边境线上划出一块战区，把两个国家好战的人都丢到里面打个痛快。任何试图跑出战区或者想把战争蔓延到战区之外的人都打成 PM2.5。&lt;/p&gt;
+&lt;p&gt;让你们去战场上疯，别拖着无辜的人下水，然后科研部门也继续存在，为这些在战场上的人研发武器和技术。同时为战区之外的军队研发更好的装备，防止战区的傻逼掉过头来打自己人，说什么国家抛弃他了 balabala......&lt;/p&gt;
+&lt;p&gt;战争被限制在好战者的群体里，科研被和竞赛也照样不耽误。毕竟有战争就有科技爆发嘛，又消灭了好战分子，又不耽误科技进步，两全其美。&lt;/p&gt;
+&lt;p&gt;最后好战的得偿所愿死在战场上，热爱和平的人享受科技进步。&lt;/p&gt;
+&lt;p&gt;只要没有人喜欢战争了，和平就会来的更容易。&lt;/p&gt;
+</content>
+        <category term="观点输出" scheme="https://onsaki.com/categories/Perspectives/" />
+        <updated>2021-02-21T00:42:01.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/2020-2021/</id>
+        <title>农历新年快来了，才想起来的2020年终总结</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/2020-2021/"/>
+        <content type="html">&lt;h3 id=&#34;2020总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2020总结&#34;&gt;#&lt;/a&gt; 2020 总结&lt;/h3&gt;
+&lt;p&gt;其实也没什么好总结的，2020 可能是我长这么大过的最无聊最平淡的一年，抛去疫情因素的话。&lt;/p&gt;
+&lt;p&gt;开年不利是因为我错误的估计了一些人的不要脸程度，以为没事啥都没准备，导致家里防护用品库存为零，等到有明确的通报的时候已经断货，出门买菜靠着普通的口罩勉强应付。&lt;/p&gt;
+&lt;p&gt;幸运的是我所在的地区公告上没有确诊和疑似病例。开年有惊无险的在家里自闭了一个多月。&lt;/p&gt;
+&lt;p&gt;在家的时候也不是啥都没干，期间灵光一闪开始动键盘写小说，但是对大纲怎么写没概念，所以是想到哪写到哪。不出意外的写到五万字左右的时候已经完全脱离了我大小脑的掌控，故事越来越流水账，遂删除当作无事发生。&lt;/p&gt;
+&lt;p&gt;隔了半个多月又灵光一闪，又是写到五万字左右整个故事开始崩溃。这时候已经是二月下旬了。&lt;/p&gt;
+&lt;p&gt;实在是没什么事了，又想找点东西看看，翻着翻着微博发现了以前关注过的纹身小姐姐的微博，才想起来我好想以前想过学建模来着。看了下小姐姐推荐的教学的老师和他们的官网还有网上的一些看起来不像是水军的评价，感觉我可以，就交了定金报名。&lt;/p&gt;
+&lt;p&gt;三月初到五月份的全部精力都投入在学习建模渲染了，昼夜颠倒日思夜不想的在建模，但依然因为笨有几次没交作业，最后一堂课的作业至今没做完。&lt;/p&gt;
+&lt;p&gt;所以... 建模我说会吧有点吹，但要说不会吧，给我足够的时间还是能弄出来点东西的。&lt;/p&gt;
+&lt;p&gt;嗯，足！够！的时间。&lt;/p&gt;
+&lt;p&gt;说起来，第八节课的作业还是要做完的，就算错过点评时间了也得做完，不然感觉钱白花了。越想越亏！&lt;/p&gt;
+&lt;p&gt;五月份下旬去工地。也是去学东西，钢筋算料。目前为止可以说是没学会，主要是基础的知识和内容太过繁杂，要背很多东西，背一直是我的弱项，要是让我理解什么绝对不会这么难。而且这类的一些数值是必须记下来不能有误差的，起码误差不能太离谱，不然会出大问题。&lt;/p&gt;
+&lt;p&gt;大概从五月份到七月份去了记不清多少天，感觉没记住多少东西，今年工地开工的时候再去试试，收入挺高的，还不用加班，这种工作得把握住！&lt;/p&gt;
+&lt;p&gt;七月份之后一直到现在就都是混吃等死，还好会一丁点计算机方面的知识，还不至于把自己饿死，但也过的很拮据，连 3090 都买不起，急死了。&lt;/p&gt;
+&lt;p&gt;这几个月也有过几次灵光一闪，但都无一例外的五万字左右就全部崩溃，反正写的也很烂，也没有留的必要，就全删了。不然哪天不小心自己打开了看见也尴尬，没必要自己恶心自己。&lt;/p&gt;
+&lt;p&gt;2020 年要是除去疫情的一些糟心事过的真挺平淡的，基本都是混吃等死，没什么好总结的。但还是要留下一些文字来水字数，给以后的自己提个醒。&lt;/p&gt;
+&lt;h3 id=&#34;期待一下2021&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#期待一下2021&#34;&gt;#&lt;/a&gt; 期待一下 2021&lt;/h3&gt;
+&lt;p&gt;其实也没什么好期待的，丫的元旦刚过就给封了半个月，连家门都出不去，周围几个小区的入户门都贴了封条了，我在的村里大门也都是封条。差点以为要复刻 2020，还好半个月就解封了，但从超市之类的地方的情况来看，还是比较严峻，希望春运过后不要再有爆发了。&lt;/p&gt;
+&lt;p&gt;2021 要说最大的期望就是全世界的疫情就赶快完事，不然耽误了太多事情，尤其是耽误我买 3090 了。&lt;/p&gt;
+&lt;p&gt;疫情只要结束就有太多好玩的事情了，也不会哪天一个不小心就听到自己喜欢的人上天了的消息。&lt;/p&gt;
+&lt;p&gt;如果国内现在得情况没有放缓的态势的话，可能有一丝影响到我骑行回内蒙古的可能性。但更大的可能性是今年依旧没钱，骑行计划延后。&lt;/p&gt;
+&lt;p&gt;但最晚延后到 2023 年，如果 2023 年 9 月底之前我还没有骑行回内蒙古，我直播倒立拉稀！&lt;/p&gt;
+&lt;p&gt;然后是工作上的期望，希望自己努努力，能在 2021 年底有个半稳不稳的工作，好升级电脑。&lt;/p&gt;
+&lt;p&gt;其它的也没什么好说的了。&lt;/p&gt;
+&lt;p&gt;我不习惯做长远的目标，目标太长远的我很容易失去激情和希望。不想再重复一次 18 年的焦虑情绪，希望我这辈子最绝望的时刻仅有那一次。&lt;/p&gt;
+&lt;p&gt;虽然现在依旧有点半死不活的，但起码心情还不错，没真的跑到海里躺下过。&lt;/p&gt;
+&lt;p&gt;2021 了，周岁我都 25 了，再不做出一些改变就真的晚了。&lt;/p&gt;
+&lt;p&gt;我不怕无聊，不怕消逝，最怕的就是老。&lt;/p&gt;
+&lt;p&gt;怕老了没有年轻时的激情，没有年轻时体能去疯野。&lt;/p&gt;
+&lt;p&gt;最后，是对 2021 也是对以后生活的一个不切实际的愿望。&lt;/p&gt;
+&lt;p&gt;希望自己死之前一直年轻。&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <category term="焦虑" scheme="https://onsaki.com/tags/%E7%84%A6%E8%99%91/" />
+        <updated>2021-02-06T08:23:17.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Study-Notes/study-7/</id>
+        <title>备份一个CFOP</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Study-Notes/study-7/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;%22/images/postimages/CFOP.jpg%22&#34; alt=&#34;GAN&#39;s CFOP 公式图&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;GAN CFOP 16-03 版&lt;/p&gt;
+</content>
+        <category term="学习笔记" scheme="https://onsaki.com/categories/Study-Notes/" />
+        <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
+        <updated>2021-01-26T10:47:45.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Perspectives/ppt-1/</id>
+        <title>一点关于直播与视频流量互补的胡说。</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Perspectives/ppt-1/"/>
+        <content type="html">&lt;p&gt;下面的内容其实主要还是说 B 站这边的流量互补，因为 B 站相对于其他视频和直播平台的特殊性，我认为目前新人直播起步还是在 B 站更容易，机会更多。&lt;/p&gt;
+&lt;p&gt;在 B 站直播的起点和其他的平台就有很大的区别。&lt;/p&gt;
+&lt;p&gt;B 站的直播分区并没有独立于主站，它是一个和主站密不可分的分类。直播区很多的流量来自主站的视频点击，主站视频点击的一部分流量也来自直播区的观众点进主播主页，所以 B 站这边的主播想有热度是离不开主站的视频投稿的。&lt;/p&gt;
+&lt;p&gt;在自己主要的直播内容上尽量做到一周一更、两更，这是起步阶段主播必要的付出，但这也是起步阶段的主播在 B 站相对于其他平台最大的优势。&lt;/p&gt;
+&lt;p&gt;目前多数直播平台的前期流量要么是机器人，要么是虚假的热度，对新人主播的帮助几乎为零，除非刚入行就签公会或者加入一些小公会。&lt;/p&gt;
+&lt;p&gt;但是我个人建议，在直播没做到能养活自己独立生活之前尽量不要签约，如果签约也宁可要少一点的钱签约口碑较好的、大的、已经良好运行很长时间的公会。这种工会直播行业其实并不少，如果你想在这行做下去还是要静下心慢慢筛选的。&lt;/p&gt;
+&lt;p&gt;虽然说你看上的公会不一定看得上你，关于直播公会的深浅就不展开细说了，反正就是尽量别签，能自给自足就先别想太远的事情。起步阶段最重要的是稳定的观众和有一点稳定氪金的观众，这对直播的帮助是巨大的。&lt;/p&gt;
+&lt;p&gt;任何直播平台的氪金用户都是对主播流量的巨大帮助，不管是哪个阶段。前期攒人气吸引新观众慢慢变成老观众的阶段尤为重要。&lt;/p&gt;
+&lt;p&gt;不是少数几个人的氪金能给你带来多少收益，薅羊毛也不能只薅一只羊的。&lt;br /&gt;
+直播间里有几个稳定氪金的用户会让新来的对主播比较感兴趣但还没有那么浓厚兴趣的人驻足多看几眼，可能多看的几秒钟就会发现主播的闪光点，然后就留下来了。&lt;/p&gt;
+&lt;p&gt;这是一种很奇怪的心理，我不懂我就不乱说了。&lt;/p&gt;
+&lt;p&gt;而且直播间的排行榜功能会让一些有一点钱但不多的人产生想冲一冲榜的心理，也会给主播送一点礼物。这是主播收获的最大的好处，氪金用户能让一小部分氪金欲望没有那么强烈的人产生送一点就送一点的想法。&lt;/p&gt;
+&lt;p&gt;在有稳定的氪金大佬之后，主播接下来要做的就是接下来一段时间高质量直播内容和视频的爆发。让那一小部分有了充值想法的人发现主播的闪光点，就会把想法付诸行动。&lt;/p&gt;
+&lt;p&gt;这里就要说到 B 站的特殊性。B 站是视频站为主，直播只是一个主站的分区，所以直播区的总人气并不高，相对于其它专注直播的平台来说 B 站直播区的人气可能只是其它直播网站的零头。&lt;/p&gt;
+&lt;p&gt;但同时 B 站也有其他直播平台没有的流量优势，就是来自视频站的视频点击，这是其它直播平台没有的。就算有部分平台有高能回放的功能，和 B 站的视频网站也没有可比的，不是一种类型。&lt;/p&gt;
+&lt;p&gt;新人主播如果在前期经常做一些自己直播的精彩剪辑发表在主站会快速的从主站的流量中吸引一部分人去观看直播，这都是宝贵的前期流量，能赚多少赚多少，绝不会亏。&lt;/p&gt;
+&lt;p&gt;音乐曲就多发翻唱，舞蹈区多发舞蹈，游戏区多发精彩集锦或者搞笑瞬间之类的视频，以前播放能吸引到一个人到你的直播间都是赚的。&lt;/p&gt;
+&lt;p&gt;你要做的仅仅是在视频的开头或结尾放上你的直播间链接，视频的内容就要看你直播的内容了。如果直播的质量比较高，你就会有很多精彩的部分做到视频里面。&lt;/p&gt;
+&lt;p&gt;B 站相对于其它直播平台的用户也有一定的区别。如果你的投稿有较高的质量，会有一部分用户主动去你的直播间看一看，直播是不是真的很精彩，是不是真得有趣。&lt;/p&gt;
+&lt;p&gt;所以，不管是 B 在 B 站播还是在其它平台播，前期摸鱼是很亏的，前期除了肝没别的选择。除非你有钱，小号嗯氪抬自己。但这样的流量毫无意义，对后期的发展会是约束，或者说是绊脚石。&lt;/p&gt;
+&lt;p&gt;同时，从直播分区看到你直播的人如果觉得你直播很有趣，也会习惯性的点进你的主页空间相看一看有没有直播的剪辑。&lt;/p&gt;
+&lt;p&gt;这些特点都是 B 站相对于其它平台的巨大优势，而这些优势是其它平台就算有比 B 站再高的人气也没用，新人主播没有比 B 站更合适的平台了。&lt;/p&gt;
+&lt;p&gt;但是！就算平台再好，也要谨慎签约，不要相信任何口头承诺！&lt;/p&gt;
+&lt;p&gt;任何没有写在合同上的承诺都是屁！都是屁！都是屁！&lt;/p&gt;
+&lt;p&gt;如果他承诺人气，请写进合同。如果他承诺收益，也写进合同。他承诺的一切都要写进合同。&lt;/p&gt;
+&lt;p&gt;没有什么约定俗成，只相信合同的白纸黑字。&lt;/p&gt;
+</content>
+        <category term="观点输出" scheme="https://onsaki.com/categories/Perspectives/" />
+        <category term="观点" scheme="https://onsaki.com/tags/%E8%A7%82%E7%82%B9/" />
+        <updated>2021-01-08T03:25:54.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Daily-Lives/life-6/</id>
+        <title>焦虑-001</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Daily-Lives/life-6/"/>
+        <content type="html">&lt;p&gt;从 2008 年第一次用到 QQ 到现在 12 年。&lt;/p&gt;
+&lt;p&gt;关注最久的主播已经有八年了，&lt;/p&gt;
+&lt;p&gt;尽管很少挨个点赞收藏或者打赏，但是就算是一张纸关注久了也会有一点点感情，舍不得丢掉。&lt;/p&gt;
+&lt;p&gt;最近几年以前关注的主播们都二三十岁了，算是到了一辈子比较重要的一个分界，部分人平平淡淡的过去了，部分人磕磕绊绊的过去了。&lt;/p&gt;
+&lt;p&gt;但是在我关注的这些人里却有几个没过去，微博或视频的更新永远留在一个日期不再更新，再也看不到他的分享。&lt;/p&gt;
+&lt;p&gt;很焦虑。&lt;/p&gt;
+&lt;p&gt;这些人都是我向往过的生活，每天做自己喜欢的事，还可以赚钱养家、快活。&lt;/p&gt;
+&lt;p&gt;但是突然有一段时间被抑郁症或者其他的生理疾病缠身，磕磕绊绊的独自坚持很久，有人到最后一刻才选择告诉这些关注他的人，他走了。&lt;/p&gt;
+&lt;p&gt;很突然，很意外。&lt;/p&gt;
+&lt;p&gt;很长一段时间想不清楚为什么他们明明是我向往的样子，最后却厌倦了自己的生活，选择重生。&lt;/p&gt;
+&lt;p&gt;是我向往的生活并不美好并不快乐吗？&lt;/p&gt;
+&lt;p&gt;近几年看了一点专业的文章也仔细研究过几个人分享出来的生活，好像能抓住一点线索。&lt;/p&gt;
+&lt;p&gt;但是还是有想不清楚的地方，他为什么突然厌倦，为什么突然选择结束。&lt;/p&gt;
+&lt;p&gt;难道不管什么样的生活到最后都会厌倦吗？&lt;/p&gt;
+</content>
+        <category term="生活日常" scheme="https://onsaki.com/categories/Daily-Lives/" />
+        <category term="焦虑" scheme="https://onsaki.com/tags/%E7%84%A6%E8%99%91/" />
+        <updated>2020-12-20T03:26:26.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Daily-Lives/life-5/</id>
+        <title>重大漏洞警告！</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Daily-Lives/life-5/"/>
+        <content type="html">&lt;p&gt;我的钱包漏了！明年可能没钱续费了。 本站倒闭进入倒计时！&lt;/p&gt;
+</content>
+        <category term="生活日常" scheme="https://onsaki.com/categories/Daily-Lives/" />
+        <category term="日记" scheme="https://onsaki.com/tags/%E6%97%A5%E8%AE%B0/" />
+        <updated>2020-12-05T02:23:47.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/notes-4/</id>
+        <title>Think Pad - 001</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/notes-4/"/>
+        <content type="html">&lt;p&gt;突然脑子里有了一个把建模和科幻结合起来的故事。 如果近几年不懒的话试试写成长篇小说，现在脑子里能想到的故事大概一百万字以内可以完成。 但是以我的懒和后期情节把控能力，估计最多写到 50 万。 到时候再说，先把想法记录下来。 一个普通人，意外得到了一个非常逆天的 3D 打印机。但是这个打印机不支持导入现实世界中已有的建模软件的模型文件，只能用打印机附赠的软件建模来打印物品。而这台打印机的几乎无所不能，甚至只要建模建的好，打印出一个活人也不是不可能。 主角为了打印出各种 nb 的东西，开始了学习建模的秃头之路。&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <category term="闪念" scheme="https://onsaki.com/tags/%E9%97%AA%E5%BF%B5/" />
+        <updated>2020-10-21T19:32:04.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://onsaki.com/archives/Notes/notes-3/</id>
+        <title>「北京东路的日子」背后的故事</title>
+        <link rel="alternate" href="https://onsaki.com/archives/Notes/notes-3/"/>
+        <content type="html">&lt;p&gt;&lt;img data-src=&#34;/images/postimages/beijingdonglu.jpg&#34; alt=&#34;演唱者合影&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;“开始的开始，我们都是孩子；最后的最后，渴望变成天使；歌谣的歌谣，藏着童话的影子；孩子的孩子，该要飞往哪去……”&lt;/p&gt;
+&lt;p&gt;MV 以联唱方式开场，十几位风华正茂的男女少年头戴耳麦轮番亮相，明星味十足。很难相信，那低沉高亢不一却同样打动人心的歌声，是来自一群终日与外语打交道的十七八岁高三生。&lt;/p&gt;
+&lt;p&gt;“谨以此歌献给我们亲爱的高中，亲爱的老师们和高三 (6) 班全体同学”&lt;/p&gt;
+&lt;p&gt;—— 大多数人挥别高中时，除了不舍的眼泪、日记本里的感慨再无其它，看到一群 “当年的自己” 能用一首歌当做青春的记忆与回响，这本身已让过来人们足感唏嘘。90 后女孩的细腻柔情跃然眼前，那早已淡然却无比熟悉的感觉，在我们这些 80 后甚至 70 后听者的心底，油然而生。&lt;/p&gt;
+&lt;p&gt;所以并不奇怪，会有成千上万的网友为之叫好、流泪、转载并在过往的记忆被唤起后，留下这样或那样的心声与文字。“今年是我高中毕业整 10 年的日子。10 年是那么的长，可是记忆犹新，好难忘那些曾经美好单纯的岁月，那些真挚的友谊和同学情怀。” 网友 “味儿淡淡” 给 MV 的作者留言时说。&lt;/p&gt;
+&lt;p&gt;“也或许谁都忘记谁的名字，但记得北京东路的日子。”&lt;/p&gt;
+&lt;p&gt;写歌的女孩：我很伤感，一边写一边流泪&lt;/p&gt;
+&lt;p&gt;词曲作者汪源。这个刚满 18 周岁的女孩，正在上海办理出国留学签证，“再过两个月，我就要去美国约翰霍普金斯大学读书了”。言语里，汪源难掩兴奋。她从初中时就喜欢用写歌的方式记录日常生活点滴。她的声乐知识全凭自学，从没接受过正规训练，“几年下来写了上百首歌了，有感觉的时候对作品很满意，写得不好也无所谓，反正也只打算留给自己回味”。很显然，这首《北京东路的日子》就属于 “有感觉” 的那一类。和高中生活说再见的日子就要来了。“很伤感，觉得应该写点什么，来纪念自己即将告别的高中。” 于是用一个上午的时间，汪源写成了这首歌，一边写一边流泪。&lt;/p&gt;
+&lt;p&gt;6 月 17 日，在经过短短一天的练习后，汪源叫上了班里另外 11 个 “唱将” 级同学，共同到录音棚里将《北京东路的日子》录成 MV。而记者一直莫名其妙的 “学乐先” 是某个主要面向中学生做广告送赠品的学习机；在 MV 歌词里有些突兀的 “表示” 和 “各种” 是他们班非常流行的口头禅；原来，“乌龟大师” 是在说可爱可亲的地理老师，而 “方丈” 则是他们敬爱的班主任刘洪雷……&lt;/p&gt;
+&lt;p&gt;值得一提的是，唱歌的 12 个南外学生当中，有 4 人已被保送到国内名牌高校，包括汪源在内的 7 人收到国外大学录取通知书，唯一参加高考的刚刚获知在艺术类考生中获全省第二……&lt;/p&gt;
+&lt;p&gt;“也或许谁都忘记谁的名字，但记得北京东路的日子。”&lt;/p&gt;
+&lt;p&gt;汪源深信不疑，即便是当他们老得已经不再记得彼此熟悉的面容，只要听起这首歌，一定还能跟着旋律轻轻哼唱。&lt;/p&gt;
+&lt;p&gt;“表示从一楼到四楼的距离，原来只有三年”&lt;/p&gt;
+&lt;p&gt;“方丈” 班主任：把这首毕业之歌永远珍藏&lt;/p&gt;
+&lt;p&gt;汪源也许并不知道，那位被她写进歌词的 “方丈”、班主任刘洪雷，在第一次听到 MV 时，也流下了激动的眼泪。&lt;/p&gt;
+&lt;p&gt;刘洪雷这样描述在网上 “偶遇”《北京东路的日子》时的情形。“我是在一个学生博客里听到这首歌的，当时就猜到是汪源写的。” 作为汪源从高一到高三的班主任，刘洪雷对这个 18 岁女孩在歌中表露出的才情毫不惊奇，“能歌善舞、情感充沛、文笔细腻，她一直如此”。&lt;/p&gt;
+&lt;p&gt;已在南外校园里任教 16 年的刘洪雷，太能理解那种学生对学校、对高中生活的眷念与不舍了。“说实话我对歌词里很多细节是有共鸣的。一楼到四楼，是高一到高三的课室分布；季风、洋流是地理名词，因为我们高三 (6) 班是文科班里唯一的地理班；新视野是南外的一门英语课程…… 当然，还有‘方丈’，因为一直留短发，他们就把这个外号赐给我了。”&lt;/p&gt;
+&lt;p&gt;刘洪雷说，他打算在征得汪源他们的同意后，把这首 MV 作为高三 (6) 班的毕业之歌。“作为老师，我很乐意把这首歌视做学生们在毕业时留给我的一份珍贵礼物，永远珍藏。”&lt;/p&gt;
+&lt;hr /&gt;
+&lt;h3 id=&#34;北京东路的日子&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#北京东路的日子&#34;&gt;#&lt;/a&gt; &lt;strong&gt;《北京东路的日子》&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;**&lt;br /&gt;
+ 词 / 曲：汪源 dao&lt;br /&gt;
+ 摄影：丁天尧&lt;br /&gt;
+制作：李闵露&lt;br /&gt;
+策划：汪源&lt;br /&gt;
+演唱：刘千楚／徐逸昊／鲁天舒／姜玮珉／胡梦原／张鎏依／梁竞元／游彧涵／金书媛／许一璇／汪源／张夙夕&lt;br /&gt;
+编曲录音：南京绝世瑶音录音棚&lt;br /&gt;
+（刘）开始的开始 我们都是孩子&lt;br /&gt;
+（徐）最后的最后 渴望变成天使&lt;br /&gt;
+（鲁）歌谣的歌谣 藏着童话的影子&lt;br /&gt;
+（姜）孩子的孩子 该要飞往哪去&lt;br /&gt;
+（胡）当某天 你若听见 有人在说 那些奇怪的语言&lt;br /&gt;
+（张鎏）当某天 你若看见 满街的本子还是学乐先&lt;br /&gt;
+（梁）当某天 再唱着 这首歌会是在哪一个角落&lt;br /&gt;
+（游）当某天 再踏进 这校园会是哪片落叶 掉进回忆的流年&lt;br /&gt;
+（鲁／胡）表示从一楼到四楼的距离 原来只有三年&lt;br /&gt;
+（游／许）表示门卫叔叔食堂阿姨 很有夫妻脸&lt;br /&gt;
+（张夙／汪）各种季风洋流都搞不懂 还有新视野&lt;br /&gt;
+（徐／梁）各种曾经狂热的海报照片 卖几块几毛钱&lt;br /&gt;
+（刘／金）我们穿上西装假装成长&lt;br /&gt;
+胶片挥霍习惯的笑脸&lt;br /&gt;
+（张鎏／姜）悲伤一发 寂寞唏嘘&lt;br /&gt;
+痛的初体验&lt;br /&gt;
+（合）毕业和成年的字眼&lt;br /&gt;
+格外扣人心弦&lt;br /&gt;
+各种莫名的感伤&lt;br /&gt;
+只说句 嘻嘻一些&lt;br /&gt;
+（金）十年后 你若听见 有人在说 这些奇怪的语言&lt;br /&gt;
+（许）十年后 你若看见 满街的本子还是学乐先&lt;br /&gt;
+（合 1）表示从一楼到四楼的距离 原来只有三年&lt;br /&gt;
+（合 2）表示门卫叔叔食堂阿姨 很有夫妻脸&lt;br /&gt;
+各种季风洋流都搞不懂 还有新视野&lt;br /&gt;
+各种曾经狂热的海报照片 卖几块几毛钱&lt;br /&gt;
+（刘）我们即将分别 独自浪在 中国外国不同地点&lt;br /&gt;
+（汪）瞥见白色的校服 还会以为是我认识的谁&lt;br /&gt;
+（合）顾萍凡哥乌龟大师 方丈我爱你&lt;br /&gt;
+（张夙西）也或许谁都忘记谁的名字 但记得&lt;br /&gt;
+（合）北京东路的日子 **&lt;/p&gt;
+</content>
+        <category term="闲散随笔" scheme="https://onsaki.com/categories/Notes/" />
+        <category term="溯源" scheme="https://onsaki.com/tags/%E6%BA%AF%E6%BA%90/" />
+        <updated>2020-09-27T08:15:41.000Z</updated>
+    </entry>
+</feed>

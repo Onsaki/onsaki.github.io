@@ -15,11 +15,11 @@
     <category term="等死" />
     <category term="买复活币" />
     <entry>
-        <id>https://onsaki.com/archives/hexo-theme-shoka/dependents/</id>
+        <id>https://onsaki.com/hexo-theme-shoka/dependents/</id>
         <title>step.1 依赖插件</title>
-        <link rel="alternate" href="https://onsaki.com/archives/hexo-theme-shoka/dependents/"/>
+        <link rel="alternate" href="https://onsaki.com/hexo-theme-shoka/dependents/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;https://onsaki.com/hexo/theme-shoka-doc&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/dependents&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo/config&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/display&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/special&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://onsaki.com/hexo/theme-shoka-doc&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/dependents&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/config&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/display&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;https://onsaki.com/hexo-theme-shoka/special&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;div class=&#34;note warning&#34;&gt;
 &lt;p&gt;请务必将 hexo-renderer-multi-markdown-it 升级到最新版，目前为 0.1.5&lt;/p&gt;
@@ -101,9 +101,9 @@
         <updated>2025-07-31T08:33:16.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/hexo-theme-shoka/theme-shoka-doc/</id>
+        <id>https://onsaki.com/hexo-theme-shoka/theme-shoka-doc/</id>
         <title>Hexo 主题 Shoka &amp; Multi-Markdown-It 渲染器使用说明</title>
-        <link rel="alternate" href="https://onsaki.com/archives/hexo-theme-shoka/theme-shoka-doc/"/>
+        <link rel="alternate" href="https://onsaki.com/hexo-theme-shoka/theme-shoka-doc/"/>
         <content type="html">&lt;div class=&#34;note info&#34;&gt;
 &lt;p&gt;跳票 N 久终于更新的简单的使用说明&lt;/p&gt;
 &lt;ul&gt;
@@ -218,9 +218,9 @@
         <updated>2025-07-30T15:03:52.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/notes/notes-9/</id>
+        <id>https://onsaki.com/notes/notes-9/</id>
         <title>只因为一个命令，被自己蠢到哭</title>
-        <link rel="alternate" href="https://onsaki.com/archives/notes/notes-9/"/>
+        <link rel="alternate" href="https://onsaki.com/notes/notes-9/"/>
         <content type="html">&lt;p&gt;从去年博客复活之后又停更了大半年，真相只有一个：博客主题没弄明白。&lt;/p&gt;
 &lt;p&gt;现在用的这个主题的原作者几年前开始停更之后主题处在半瘫痪状态，很多东西作者忙于工作没时间修，我又没能力解决，所以博客在 hexo 复活之后就卡在了 99% 进度，最后的 1% 就是搜索功能。&lt;/p&gt;
 &lt;p&gt;因为博客只提供的 algolia 的搜索，而我又第一次弄这种需要在外站操作的情况，又碰巧 algolia 的网站全英文，而我是个丈育，英文全不懂，又碰巧主题原作者停更之后 algolia 的网站经历过一次改版，新建账户后没办法按主题文档介绍的那样一步一步操作，会直接进入一个五步的创建某个东西的流程。&lt;/p&gt;
@@ -237,9 +237,9 @@
         <updated>2025-07-24T10:32:45.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/notes/notes-8/</id>
+        <id>https://onsaki.com/notes/notes-8/</id>
         <title>复活时长两年半，我是Hexo练习生</title>
-        <link rel="alternate" href="https://onsaki.com/archives/notes/notes-8/"/>
+        <link rel="alternate" href="https://onsaki.com/notes/notes-8/"/>
         <content type="html">&lt;p&gt;我是真没想到，一个小小的搬家行动能把我博客搞死两年。&lt;/p&gt;
 &lt;p&gt;起因是 22 年五月份我想把当时还在用 wordpress 的博客整站搬迁到另一个主机商的服务器上，从搬瓦工备份、打包、下载都没问题，但上传到新的服务器上之后就出了大问题，备份和恢复的过程都没问题，但就是莫名其妙的空白网页，没有报错，就是一片白。&lt;/p&gt;
 &lt;p&gt;之后尝试了各种办法恢复，尝试了各种各样的主机商，甚至临时接了一点独立服务器尝试，均失败。&lt;/p&gt;
@@ -257,9 +257,9 @@
         <updated>2024-09-22T15:40:19.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/daily-lives/life-9/</id>
+        <id>https://onsaki.com/daily-lives/life-9/</id>
         <title>注销微博</title>
-        <link rel="alternate" href="https://onsaki.com/archives/daily-lives/life-9/"/>
+        <link rel="alternate" href="https://onsaki.com/daily-lives/life-9/"/>
         <content type="html">&lt;p&gt;受不了微博上的傻逼了，注销眼不见为净。&lt;/p&gt;
 </content>
         <category term="生活日常" scheme="https://onsaki.com/categories/daily-lives/" />
@@ -267,9 +267,9 @@
         <updated>2022-04-19T03:27:46.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/study-notes/study-11/</id>
+        <id>https://onsaki.com/study-notes/study-11/</id>
         <title>B站上值得学习的公开课大合集</title>
-        <link rel="alternate" href="https://onsaki.com/archives/study-notes/study-11/"/>
+        <link rel="alternate" href="https://onsaki.com/study-notes/study-11/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMjE4MjAzODUwNC9HQU90WjNhaXI=&#34;&gt;B 站上值得学习的公开课大合集&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;最近一直沉迷于 B 站，在浏览了众多纪录片和学习资源之后，又发现了一些很实用的大学公开课。&lt;/p&gt;
 &lt;p&gt;虽然现在网上课程视频很多，可是像 B 站这样一边看课程一边交流还是很 nice 的。&lt;/p&gt;
@@ -340,9 +340,9 @@
         <updated>2022-04-19T02:08:38.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/notes/notes-7/</id>
+        <id>https://onsaki.com/notes/notes-7/</id>
         <title>发现了一个可以「自制Emoji表情」的网站！！</title>
-        <link rel="alternate" href="https://onsaki.com/archives/notes/notes-7/"/>
+        <link rel="alternate" href="https://onsaki.com/notes/notes-7/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNjEzOTcyODU2Ni9IY3UzZzlHYkk=&#34;&gt;发现了一个可以【自制 emoji 表情】的网站！！&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;发现了一个可以【自制 emoji 表情】的网站！！ 可以随心搭配脸型、眼睛、嘴和装饰，甚至支持本地上传图片做素材&lt;img data-src=&#34;https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/c9/2018new_chongjing_org.png&#34; alt=&#34;[憧憬]&#34; title=&#34;[憧憬]&#34; /&gt; 存成图片后还能手动添加到某信表情包～ * 传送门：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZwaGxudG4uY29tJTJGZW1vamlidWlsZGVyJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
 </content>
@@ -350,9 +350,9 @@
         <updated>2022-04-19T01:55:07.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/film/film-2/</id>
+        <id>https://onsaki.com/film/film-2/</id>
         <title>听说维密秀要取消了</title>
-        <link rel="alternate" href="https://onsaki.com/archives/film/film-2/"/>
+        <link rel="alternate" href="https://onsaki.com/film/film-2/"/>
         <content type="html">&lt;p&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMTQwMTUyNzU1My9JaHFwSDlvUDg=&#34;&gt;听说维密秀要取消了。&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;2018:288b3a2d9b34212ff66dcd3d50360e4b2c96fb0c 2017:2c39ae1522ca69539107a2f81aeb9bf1befa6674 2016:3275ec9463bf3fb7ecd20d4db7a8380f04343667 2015:e74c873b56c3dc982f22540ee620e50ad060600e 2014:6f30f280619f34b82e0916631c5f68c30b6bc60a 2013:ac9a21a2becc01fc61e5f90c99046980d9feddee 2012:8e0fd7b0f6645c768ffad2a2bc0b355676539ee6 2011:4fdd6c23960dc50ab1649dbc7fde39361ea78c3a 2010:8deb0a6f5408b246b2adcb2f3ab0d7c3cc39075b&lt;/p&gt;
 </content>
@@ -361,9 +361,9 @@
         <updated>2022-04-19T01:53:23.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/study-notes/study-10/</id>
+        <id>https://onsaki.com/study-notes/study-10/</id>
         <title>如何用10分钟建立基于加密稳定币的付费阅读网站</title>
-        <link rel="alternate" href="https://onsaki.com/archives/study-notes/study-10/"/>
+        <link rel="alternate" href="https://onsaki.com/study-notes/study-10/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vdHRhcnRpY2xlL3Avc2hvdz9pZD0yMzA5NDA0NDY3MjYxMDAyODc1MTU5&#34;&gt;如何用 10 分钟建立基于加密稳定币的付费阅读网站&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://wx3.sinaimg.cn/large/40dfde6fly1gbh6u4ci91j20rs0fmwp2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;本文将介绍一种通过 WordPress 插件和 FOUSDT（ 一种加密稳定币，约等值于美元 ）架设付费阅读服务的方式。&lt;/p&gt;
@@ -444,9 +444,9 @@
         <updated>2022-04-19T01:47:56.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/study-notes/study-9/</id>
+        <id>https://onsaki.com/study-notes/study-9/</id>
         <title>强烈推荐！少年今天给大家安利一门课程十分钟速成课系列Crash Course！！！</title>
-        <link rel="alternate" href="https://onsaki.com/archives/study-notes/study-9/"/>
+        <link rel="alternate" href="https://onsaki.com/study-notes/study-9/"/>
         <content type="html">&lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNTUzODM4NzcxNi9JdUNSeGJBdTQ=&#34;&gt;https://weibo.com/5538387716/IuCRxbAu4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;每天只要 10 分钟，就能快速掌握一个知识点。&lt;/p&gt;
 &lt;p&gt;这门课程从一战起因，到牛顿定律，再到宇宙起源，世界之大，几乎包含了你想要的所有知识点。&lt;/p&gt;
@@ -536,9 +536,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2022-04-19T01:39:11.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/%E8%AE%BE%E8%AE%A1%E7%9B%B8%E5%85%B3/gd-1/</id>
+        <id>https://onsaki.com/%E8%AE%BE%E8%AE%A1%E7%9B%B8%E5%85%B3/gd-1/</id>
         <title>开源项目SkyAI可对普通视频“换天”</title>
-        <link rel="alternate" href="https://onsaki.com/archives/%E8%AE%BE%E8%AE%A1%E7%9B%B8%E5%85%B3/gd-1/"/>
+        <link rel="alternate" href="https://onsaki.com/%E8%AE%BE%E8%AE%A1%E7%9B%B8%E5%85%B3/gd-1/"/>
         <content type="html">&lt;p&gt;让你的视频变成科幻大片，效果非常震撼 项目：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20vaml1cGluamlhL1NreUFS&#34;&gt;github.com/jiupinjia/SkyAR&lt;/span&gt;&lt;/p&gt;
 </content>
         <category term="设计相关" scheme="https://onsaki.com/categories/%E8%AE%BE%E8%AE%A1%E7%9B%B8%E5%85%B3/" />
@@ -546,9 +546,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2022-04-19T01:32:06.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/notes/notes-6/</id>
+        <id>https://onsaki.com/notes/notes-6/</id>
         <title>树下的花终会枯萎</title>
-        <link rel="alternate" href="https://onsaki.com/archives/notes/notes-6/"/>
+        <link rel="alternate" href="https://onsaki.com/notes/notes-6/"/>
         <content type="html">&lt;p&gt;前几天叶修的生日，上微博上看了一眼，原来他过生日的地方他们早就知道了。&lt;/p&gt;
 &lt;p&gt;恰巧他过生日那天看了马里奥的视频，后面一大部分是骑着自行车的第一视角闲聊。&lt;/p&gt;
 &lt;p&gt;而他配的 BGM 正式叶修常用的，配上马里奥讲事情的画面，莫名的想到叶修。&lt;/p&gt;
@@ -563,9 +563,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2021-07-07T06:50:47.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/daily-lives/life-8/</id>
+        <id>https://onsaki.com/daily-lives/life-8/</id>
         <title>深夜Emo，也许该早点睡</title>
-        <link rel="alternate" href="https://onsaki.com/archives/daily-lives/life-8/"/>
+        <link rel="alternate" href="https://onsaki.com/daily-lives/life-8/"/>
         <content type="html">&lt;p&gt;不管自己的情绪怎么陷入低谷，自己总是会有办法排解，或者逃避情绪。&lt;/p&gt;
 &lt;p&gt;有时候过程会比较漫长，但总是有办法爬出来。&lt;/p&gt;
 &lt;p&gt;最难受的是看见别人一点点的陷进去，自己帮不到什么，只能眼睁睁地看着。&lt;/p&gt;
@@ -580,9 +580,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2021-05-16T15:15:46.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/perspectives/ppt-2/</id>
+        <id>https://onsaki.com/perspectives/ppt-2/</id>
         <title>傻逼才应该去死在战场上</title>
-        <link rel="alternate" href="https://onsaki.com/archives/perspectives/ppt-2/"/>
+        <link rel="alternate" href="https://onsaki.com/perspectives/ppt-2/"/>
         <content type="html">&lt;p&gt;我从来都不是愤青，也很反感愤青，无理爱国什么的尤其反感。&lt;/p&gt;
 &lt;p&gt;但这次网上一些阴阳怪气看着属实气人，你可以质疑军队洗脑是否有人权，可以质疑各种管理上的问题，但这种时候跳出来说那些阴阳怪气的属实恶心。&lt;/p&gt;
 &lt;p&gt;我也很反感动不动就是一个多月的刷屏，但刷就刷了，这不是单单给网友看的。这也是给他们的亲属一个交代。告诉亲属，他们没有白白牺牲，也不会忘记他们，也本不应该忘记他们。&lt;/p&gt;
@@ -610,9 +610,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2021-02-21T00:42:01.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/notes/2020-2021/</id>
+        <id>https://onsaki.com/notes/2020-2021/</id>
         <title>农历新年快来了，才想起来的2020年终总结</title>
-        <link rel="alternate" href="https://onsaki.com/archives/notes/2020-2021/"/>
+        <link rel="alternate" href="https://onsaki.com/notes/2020-2021/"/>
         <content type="html">&lt;h3 id=&#34;2020总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2020总结&#34;&gt;#&lt;/a&gt; 2020 总结&lt;/h3&gt;
 &lt;p&gt;其实也没什么好总结的，2020 可能是我长这么大过的最无聊最平淡的一年，抛去疫情因素的话。&lt;/p&gt;
 &lt;p&gt;开年不利是因为我错误的估计了一些人的不要脸程度，以为没事啥都没准备，导致家里防护用品库存为零，等到有明确的通报的时候已经断货，出门买菜靠着普通的口罩勉强应付。&lt;/p&gt;
@@ -650,9 +650,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2021-02-06T08:23:17.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/study-notes/study-7/</id>
+        <id>https://onsaki.com/study-notes/study-7/</id>
         <title>备份一个CFOP</title>
-        <link rel="alternate" href="https://onsaki.com/archives/study-notes/study-7/"/>
+        <link rel="alternate" href="https://onsaki.com/study-notes/study-7/"/>
         <content type="html">&lt;p&gt;&lt;img data-src=&#34;%22/images/postimages/CFOP.jpg%22&#34; alt=&#34;GAN&#39;s CFOP 公式图&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;GAN CFOP 16-03 版&lt;/p&gt;
 </content>
@@ -661,9 +661,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2021-01-26T10:47:45.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/perspectives/ppt-1/</id>
+        <id>https://onsaki.com/perspectives/ppt-1/</id>
         <title>一点关于直播与视频流量互补的胡说。</title>
-        <link rel="alternate" href="https://onsaki.com/archives/perspectives/ppt-1/"/>
+        <link rel="alternate" href="https://onsaki.com/perspectives/ppt-1/"/>
         <content type="html">&lt;p&gt;下面的内容其实主要还是说 B 站这边的流量互补，因为 B 站相对于其他视频和直播平台的特殊性，我认为目前新人直播起步还是在 B 站更容易，机会更多。&lt;/p&gt;
 &lt;p&gt;在 B 站直播的起点和其他的平台就有很大的区别。&lt;/p&gt;
 &lt;p&gt;B 站的直播分区并没有独立于主站，它是一个和主站密不可分的分类。直播区很多的流量来自主站的视频点击，主站视频点击的一部分流量也来自直播区的观众点进主播主页，所以 B 站这边的主播想有热度是离不开主站的视频投稿的。&lt;/p&gt;
@@ -696,9 +696,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2021-01-08T03:25:54.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/daily-lives/life-6/</id>
+        <id>https://onsaki.com/daily-lives/life-6/</id>
         <title>焦虑-001</title>
-        <link rel="alternate" href="https://onsaki.com/archives/daily-lives/life-6/"/>
+        <link rel="alternate" href="https://onsaki.com/daily-lives/life-6/"/>
         <content type="html">&lt;p&gt;从 2008 年第一次用到 QQ 到现在 12 年。&lt;/p&gt;
 &lt;p&gt;关注最久的主播已经有八年了，&lt;/p&gt;
 &lt;p&gt;尽管很少挨个点赞收藏或者打赏，但是就算是一张纸关注久了也会有一点点感情，舍不得丢掉。&lt;/p&gt;
@@ -719,9 +719,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2020-12-20T03:26:26.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/daily-lives/life-5/</id>
+        <id>https://onsaki.com/daily-lives/life-5/</id>
         <title>重大漏洞警告！</title>
-        <link rel="alternate" href="https://onsaki.com/archives/daily-lives/life-5/"/>
+        <link rel="alternate" href="https://onsaki.com/daily-lives/life-5/"/>
         <content type="html">&lt;p&gt;我的钱包漏了！明年可能没钱续费了。 本站倒闭进入倒计时！&lt;/p&gt;
 </content>
         <category term="生活日常" scheme="https://onsaki.com/categories/daily-lives/" />
@@ -729,9 +729,9 @@ Crash Course: 学习技能&lt;br /&gt;
         <updated>2020-12-05T02:23:47.000Z</updated>
     </entry>
     <entry>
-        <id>https://onsaki.com/archives/notes/notes-4/</id>
+        <id>https://onsaki.com/notes/notes-4/</id>
         <title>Think Pad - 001</title>
-        <link rel="alternate" href="https://onsaki.com/archives/notes/notes-4/"/>
+        <link rel="alternate" href="https://onsaki.com/notes/notes-4/"/>
         <content type="html">&lt;p&gt;突然脑子里有了一个把建模和科幻结合起来的故事。 如果近几年不懒的话试试写成长篇小说，现在脑子里能想到的故事大概一百万字以内可以完成。 但是以我的懒和后期情节把控能力，估计最多写到 50 万。 到时候再说，先把想法记录下来。 一个普通人，意外得到了一个非常逆天的 3D 打印机。但是这个打印机不支持导入现实世界中已有的建模软件的模型文件，只能用打印机附赠的软件建模来打印物品。而这台打印机的几乎无所不能，甚至只要建模建的好，打印出一个活人也不是不可能。 主角为了打印出各种 nb 的东西，开始了学习建模的秃头之路。&lt;/p&gt;
 </content>
         <category term="闲散随笔" scheme="https://onsaki.com/categories/notes/" />

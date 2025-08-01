@@ -10,8 +10,8 @@
         </author>
         <description>建这个博客的目的非常单纯且美好，就是骂一些在大多数平台不方便骂的人。</description>
         <language>zh-CN</language>
-        <pubDate>Thu, 31 Jul 2025 22:15:37 +0800</pubDate>
-        <lastBuildDate>Thu, 31 Jul 2025 22:15:37 +0800</lastBuildDate>
+        <pubDate>Fri, 01 Aug 2025 03:39:58 +0800</pubDate>
+        <lastBuildDate>Fri, 01 Aug 2025 03:39:58 +0800</lastBuildDate>
         <category term="个人博客" />
         <category term="shoka" />
         <category term="hexo主题" />
@@ -19,6 +19,140 @@
         <category term="这里应该没人看见" />
         <category term="所以广告位招租" />
         <category term="" />
+        <item>
+            <guid isPermalink="true">https://onsaki.com/hexo-theme-shoka/special/</guid>
+            <title>Step.4 特殊功能</title>
+            <link>https://onsaki.com/hexo-theme-shoka/special/</link>
+            <category term="shoka文档" scheme="https://onsaki.com/categories/hexo-theme-shoka/" />
+            <category term="hexo" scheme="https://onsaki.com/tags/hexo/" />
+            <pubDate>Fri, 01 Aug 2025 03:39:58 +0800</pubDate>
+            <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;/hexo-theme-shoka/shoka&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/dependents&#34;&gt;💌依赖插件&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/config&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/display&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/special&#34;&gt;&lt;strong&gt;🦄特殊功能&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;note info&#34;&gt;
+&lt;p&gt;以下介绍可以使用的 &lt;code&gt;markdown&lt;/code&gt;  或者标签代码。&lt;br /&gt;
+功能大部分基于 hexo-renderer-multi-markdown-it 渲染器，尤其是代码块的显示，与默认渲染器不兼容。&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;links链接块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#links链接块&#34;&gt;#&lt;/a&gt;  &lt;code&gt;links&lt;/code&gt;  链接块&lt;/h1&gt;
+&lt;p&gt;本功能参考 NexT，基于 Hexo Tag 功能，用来建立友链或其他网址链接功能。&lt;/p&gt;
+&lt;p&gt;文章中的使用格式：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;使用 links 标签块，包围 yml 语法书写的内容，字段包括&lt;/li&gt;
+&lt;/ol&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;标签&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;重要性&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;site&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;站点名称&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;必填&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;owner&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;管理员名字&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;可选，默认为 &lt;code&gt;site&lt;/code&gt;  的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;url&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;站点链接&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;必填&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;desc&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;站点描述&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;可选，默认为 &lt;code&gt;url&lt;/code&gt;  的值&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;image&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;站点图片&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;可选，默认为 &lt;code&gt;mages/404.png&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;color&lt;/code&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;方块颜色&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;可选，默认为 &lt;code&gt;#666&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&lt;div class=&#34;links&#34;&gt;&lt;/div&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;举个栗子：&lt;/p&gt;
+&lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/onsaki/onsaki.github.io@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/onsaki/onsaki.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;div class=&#34;links&#34;&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34; style=&#34;--block-color:#e9546b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;https://cdn.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;霜月琉璃&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/onsaki/onsaki.github.io@latest/images/avatar.jpg&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;https://shoka.lostyu.me&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;item&#34; title=&#34;優萌初華&#34; style=&#34;--block-color:#9d5b8b;&#34;&gt;&lt;span class=&#34;exturl image&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34; data-background-image=&#34;//cdn.jsdelivr.net/gh/onsaki/onsaki.github.io@latest/images/404.png&#34;&gt;&lt;/span&gt;
+          &lt;div class=&#34;info&#34;&gt;
+          &lt;span class=&#34;exturl title&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;優萌初華&lt;/span&gt;
+          &lt;p class=&#34;desc&#34;&gt;琉璃的医学 &amp; 编程笔记&lt;/p&gt;
+          &lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;举个栗子：&lt;/p&gt;
+&lt;figure class=&#34;highlight md&#34;&gt;&lt;figcaption data-lang=&#34;Markdown&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;code代码块&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#code代码块&#34;&gt;#&lt;/a&gt;  &lt;code&gt;code&lt;/code&gt;  代码块&lt;/h1&gt;
+&lt;p&gt;使用 &lt;code&gt;markdown-it-prism&lt;/code&gt;  进行代码高亮，支持显示行号、行高亮 &lt;code&gt;mark&lt;/code&gt; 、命令提示符 &lt;code&gt;command&lt;/code&gt; 、代码块标题。&lt;/p&gt;
+&lt;p&gt;基本格式： &lt;code&gt;[language] [title] [url] [link text] [mark] [command]&lt;/code&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;选项&lt;/th&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;描述&lt;/th&gt;
+&lt;th&gt;默认值&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;language&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;- 支持的语言&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9wcmlzbWpzLmNvbS8jc3VwcG9ydGVkLWxhbmd1YWdlcw==&#34;&gt;戳此&lt;/span&gt; &amp;lt;br&amp;gt;- 如果不需要代码高亮，但希望显示代码块样式，则设为 &lt;code&gt;raw&lt;/code&gt;  &amp;lt;br&amp;gt;- 留空或设为 &lt;code&gt;info&lt;/code&gt; ，将不显示代码高亮和代码块样式&lt;/td&gt;
+&lt;td&gt;null&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;title&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;代码块的标题文字&lt;/td&gt;
+&lt;td&gt;null&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;url&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;代码块标题右侧显示的链接&lt;/td&gt;
+&lt;td&gt;null&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;linktext&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;上述链接显示的标题&lt;/td&gt;
+&lt;td&gt;link&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;mark&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;行高亮显示，格式为 &lt;code&gt;mark:行号,行号开始-行号结束,其他行号&lt;/code&gt; 。&amp;lt;br&amp;gt; 例如 &lt;code&gt;mark:1,4-7,10&lt;/code&gt; ，将高亮显示第 1、4、5、6、7、10 行&lt;/td&gt;
+&lt;td&gt;null&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;command&lt;/td&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;&lt;code&gt;command:(&amp;quot;提示内容&amp;quot;:行号,行号||&amp;quot;提示内容&amp;quot;:行号开始-行号结束)&lt;/code&gt; &amp;lt;br&amp;gt; 例如 &lt;code&gt;command:(&amp;quot;[root@localhost] $&amp;quot;:1,9-10||&amp;quot;[admin@remotehost] #&amp;quot;:4-6)&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;null&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;figure class=&#34;highlight raw&#34;&gt;&lt;figcaption data-lang=&#34;&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- [ ] 这是一个小叉叉&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- [x] 这是一个红色勾勾&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;.danger&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- [ ] 未完成&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- [x] 完成&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&amp;#123;.primary&amp;#125;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- [ ] 未完成&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;- [x] 默认颜色&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://onsaki.com/hexo-theme-shoka/display/</guid>
             <title>Step.3 界面显示</title>
@@ -149,7 +283,7 @@
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.com/hexo-theme-shoka/config/</guid>
-            <title>step.2基本配置</title>
+            <title>Step.2 基本配置</title>
             <link>https://onsaki.com/hexo-theme-shoka/config/</link>
             <category term="shoka文档" scheme="https://onsaki.com/categories/hexo-theme-shoka/" />
             <category term="hexo" scheme="https://onsaki.com/tags/hexo/" />
@@ -306,89 +440,145 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.com/hexo-theme-shoka/dependents/</guid>
-            <title>step.1依赖插件</title>
+            <title>Step.1 依赖插件</title>
             <link>https://onsaki.com/hexo-theme-shoka/dependents/</link>
             <category term="shoka文档" scheme="https://onsaki.com/categories/hexo-theme-shoka/" />
             <category term="hexo" scheme="https://onsaki.com/tags/hexo/" />
             <pubDate>Thu, 31 Jul 2025 16:33:16 +0800</pubDate>
-            <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
-&lt;p&gt;&lt;a href=&#34;/hexo-theme-shoka/shoka&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/dependents&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/config&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/display&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/special&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&#34;note warning&#34;&gt;
-&lt;p&gt;请务必将 hexo-renderer-multi-markdown-it 升级到最新版，目前为 0.1.5&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Theme Shoka 依赖一下 Hexo 插件&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;插件名称&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;npm 地址&lt;/th&gt;
-&lt;th style=&#34;text-align:left&#34;&gt;功能&lt;/th&gt;
-&lt;th&gt;依赖程度&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;hexo-renderer-multi-markdown-it&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1yZW5kZXJlci1tdWx0aS1tYXJrZG93bi1pdA==&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;md 文件渲染器，压缩 css/js/heml&lt;/td&gt;
-&lt;td&gt;必须&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;hexo-autoprefixer&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1hdXRvcHJlZml4ZXI=&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;给生成的 css 文件们添加浏览器前缀&lt;/td&gt;
-&lt;td&gt;必须&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;hexo-algoliasearch&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1hbGdvbGlhc2VhcmNo&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;站内搜索功能&lt;/td&gt;
-&lt;td&gt;搜索按钮失灵&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;hexo-symbols-count-time&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1zeW1ib2xzLWNvdW50LXRpbWU=&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;文章或站点字数及阅读时间统计&lt;/td&gt;
-&lt;td&gt;统计没有&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;hexo-feed&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1mZWVk&#34;&gt;链接&lt;/span&gt;&lt;/td&gt;
-&lt;td style=&#34;text-align:left&#34;&gt;生成 Feed 文件&lt;/td&gt;
-&lt;td&gt;Feed 文件没有&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
+            <description><![CDATA[ &lt;p&gt;:::primary&lt;br&gt;&lt;a href=&#34;/hexo-theme-shoka/shoka&#34;&gt;🚀快速开始&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/dependents&#34;&gt;&lt;strong&gt;💌依赖插件&lt;/strong&gt;&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/config&#34;&gt;📌基本配置&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/display&#34;&gt;🌈界面显示&lt;/a&gt; - &lt;a href=&#34;/hexo-theme-shoka/special&#34;&gt;🦄特殊功能&lt;/a&gt;&lt;br&gt;:::&lt;/p&gt;
+&lt;p&gt;:::warning&lt;br&gt;请务必将 hexo-renderer-multi-markdown-it 升级到最新版，目前为 0.1.5&lt;br&gt;:::&lt;/p&gt;
+&lt;p&gt;Theme Shoka 依赖一下Hexo插件&lt;/p&gt;
+&lt;p&gt;| 插件名称 | npm地址 | 功能 | 依赖程度 |&lt;br&gt;| :— | :— | :— |&lt;br&gt;| hexo-renderer-multi-markdown-it | &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1yZW5kZXJlci1tdWx0aS1tYXJrZG93bi1pdA==&#34;&gt;链接&lt;/span&gt; | md文件渲染器，压缩css&amp;#x2F;js&amp;#x2F;heml | 必须 |&lt;br&gt;| hexo-autoprefixer | &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1hdXRvcHJlZml4ZXI=&#34;&gt;链接&lt;/span&gt; | 给生成的css文件们添加浏览器前缀 | 必须 |&lt;br&gt;| hexo-algoliasearch | &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1hbGdvbGlhc2VhcmNo&#34;&gt;链接&lt;/span&gt; | 站内搜索功能 | 搜索按钮失灵 |&lt;br&gt;| hexo-symbols-count-time | &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1zeW1ib2xzLWNvdW50LXRpbWU=&#34;&gt;链接&lt;/span&gt; | 文章或站点字数及阅读时间统计 | 统计没有 |&lt;br&gt;| hexo-feed | &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubnBtanMuY29tL3BhY2thZ2UvaGV4by1mZWVk&#34;&gt;链接&lt;/span&gt; | 生成Feed文件 | Feed文件没有 |&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;没有正确安装以上插件的话，本主题会报错 or 无法正确显示 or 部分功能失效。&lt;br /&gt;
- &lt;code&gt;hexo-renderer-multi-markdown-it&lt;/code&gt;  请注意升级到最新版&lt;br /&gt;
-安装完以上插件后，修改站点配置文件 &lt;code&gt;_config.yml&lt;/code&gt; ，加入相关配置&lt;/p&gt;
+&lt;p&gt;没有正确安装以上插件的话，本主题会报错 or 无法正确显示 or 部分功能失效。&lt;br&gt;&lt;code&gt;hexo-renderer-multi-markdown-it&lt;/code&gt;请注意升级到最新版&lt;br&gt;安装完以上插件后，修改站点配置文件&lt;code&gt;_config.yml&lt;/code&gt;，加入相关配置&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;multi-markdown-it-安装与配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#multi-markdown-it-安装与配置&#34;&gt;#&lt;/a&gt; multi-markdown-it 安装与配置&lt;/h1&gt;
-&lt;h2 id=&#34;安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装&#34;&gt;#&lt;/a&gt; 安装&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;安装前，记得务必卸载掉默认的 &lt;code&gt;hexo-renderer-marked&lt;/code&gt; ，以及别的 markdown 文件渲染器。&lt;/li&gt;
+&lt;h1 id=&#34;multi-markdown-it-安装与配置&#34;&gt;&lt;a href=&#34;#multi-markdown-it-安装与配置&#34; class=&#34;headerlink&#34; title=&#34;multi-markdown-it 安装与配置&#34;&gt;&lt;/a&gt;multi-markdown-it 安装与配置&lt;/h1&gt;&lt;h2 id=&#34;安装&#34;&gt;&lt;a href=&#34;#安装&#34; class=&#34;headerlink&#34; title=&#34;安装&#34;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;安装前，记得务必卸载掉默认的&lt;code&gt;hexo-renderer-marked&lt;/code&gt;，以及别的 markdown 文件渲染器。&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; un hexo-renderer-marked &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; remove hexo-renderer-marked&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm un hexo-renderer-marked --save
+# 或者
+yarn remove hexo-renderer-marked
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;安装&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i hexo-renderer-multi-markdown-it &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-renderer-multi-markdown-it&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;ol start=&#34;3&#34;&gt;
-&lt;li&gt;如果安装缓慢，或者失败&lt;br /&gt;
-如报错&lt;/li&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm i hexo-renderer-multi-markdown-it --save
+# 或者
+yarn add hexo-renderer-multi-markdown-it
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;如果安装缓慢，或者失败&lt;br&gt;如报错&lt;/li&gt;
 &lt;/ol&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;ERROR: Failed to download Chromium r515411&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt; Set &lt;span class=&#34;token string&#34;&gt;&#34;PUPPETEER_SKIP_CHROMIUM_DOWNLOAD&#34;&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;env&lt;/span&gt; variable to skip download.&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;因为有一步需要下载 puppeteer 里的 Chromium 内核，基于天朝内部网络现状，这一步能不能成功要靠科学和运气，所以为了避免安装失败，需要加上 &lt;code&gt;--ignore-scripts&lt;/code&gt;  跳过 Chromium 内核的下载。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i hexo-renderer-multi-markdown-it &lt;span class=&#34;token parameter variable&#34;&gt;--save&lt;/span&gt; --ignore-scripts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;# 或者&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;yarn&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; hexo-renderer-multi-markdown-it --ignore-scripts&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;puppeteer 主要是用来渲染 mermaid 流程图，只要文章中不使用 mermaid 就没有任何问题，如果要使用 mermaid 建议还是想办法完全安装。&lt;/p&gt;
-&lt;h2 id=&#34;配置&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#配置&#34;&gt;#&lt;/a&gt; 配置&lt;/h2&gt;
-&lt;p&gt;加入 &lt;code&gt;markdown&lt;/code&gt;  配置，用来渲染 md 文件&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;markdown&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;render&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 渲染器设置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 过滤 HTML 标签&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;xhtmlOut&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 使用 &#39;/&#39; 来闭合单标签 （比如 &amp;lt;br /&gt;）。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;breaks&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 转换段落里的 &#39;\n&#39; 到 &amp;lt;br&gt;。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;linkify&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 将类似 URL 的文本自动转换为链接。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;typographer&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;quotes&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;“”‘’&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;plugins&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# markdown-it 插件设置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;toc&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;and&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;anchor&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 文章目录以及锚点应用的 class 名称，shoka 主题必须设置成这样&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;tocClassName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;toc&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;anchorClassName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;anchor&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;multimd&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;table&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;20&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;multiline&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;21&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;rowspan&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;22&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;headerless&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;23&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;24&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ./markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;furigana&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;25&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;26&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;27&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;fallbackParens&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;()&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;28&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token key atrule&#34;&gt;plugin&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;29&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;name&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; ./markdown&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;it&lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt;spoiler&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;30&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;31&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;options&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;32&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;          &lt;span class=&#34;token key atrule&#34;&gt;title&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;你知道得太多了&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;加入 &lt;code&gt;minify&lt;/code&gt;  配置，压缩 css/js/html&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;minify&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;html&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;# 排除 hexo-feed 用到的模板文件&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/json.ejs&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/atom.ejs&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/rss.ejs&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;css&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/*.min.css&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;js&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;mangle&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token key atrule&#34;&gt;toplevel&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;compress&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;19&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;      &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;**/*.min.js&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示。&lt;br /&gt;
-找到 &lt;code&gt;highlight&lt;/code&gt;  和 &lt;code&gt;prismjs&lt;/code&gt; ，把 &lt;code&gt;enable&lt;/code&gt;  改成 &lt;code&gt;false&lt;/code&gt; 。&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;highlight&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;prismjs&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h1 id=&#34;autoprefixer-配置建议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#autoprefixer-配置建议&#34;&gt;#&lt;/a&gt; autoprefixer 配置建议&lt;/h1&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;autoprefixer&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;exclude&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#39;*.min.css&#39;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;缺少这个插件，首页卡片反转效果在部分浏览器中无法正确显示&lt;/p&gt;
-&lt;h1 id=&#34;algolia-配置建议&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#algolia-配置建议&#34;&gt;#&lt;/a&gt; algolia 配置建议&lt;/h1&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;algolia&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;appId&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#Your appId&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;apiKey&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#Your apiKey&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;adminApiKey&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#Your adminApiKey&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;chunkSize&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;5000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;indexName&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#&#34;shoka&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;  &lt;span class=&#34;token key atrule&#34;&gt;fields&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; title &lt;span class=&#34;token comment&#34;&gt;#必须配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; path &lt;span class=&#34;token comment&#34;&gt;#必须配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; categories &lt;span class=&#34;token comment&#34;&gt;#推荐配置&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; content&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;strip&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;truncate&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;2000&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; gallery&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; photos&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token punctuation&#34;&gt;-&lt;/span&gt; tags&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;#feed 配置建议&lt;/p&gt;
-&lt;figure class=&#34;highlight yaml&#34;&gt;&lt;figcaption data-lang=&#34;YAML&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;keywords&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token comment&#34;&gt;#站点关键词，用 “,” 分隔&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token key atrule&#34;&gt;feed&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;limit&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;20&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;order_by&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;-date&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;tag_dir&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;category_dir&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;false&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;rss&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;themes/shoka/layout/_alternate/rss.ejs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;rss.xml&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;atom&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;12&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;13&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;themes/shoka/layout/_alternate/atom.ejs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;14&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;atom.xml&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;15&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token key atrule&#34;&gt;jsonFeed&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;16&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;enable&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token boolean important&#34;&gt;true&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;17&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;template&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;themes/shoka/layout/_alternate/json.ejs&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;18&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;        &lt;span class=&#34;token key atrule&#34;&gt;output&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;:&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;feed.json&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;ERROR: Failed to download Chromium r515411! Set &amp;quot;PUPPETEER_SKIP_CHROMIUM_DOWNLOAD&amp;quot; env variable to skip download.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;因为有一步需要下载 puppeteer 里的 Chromium 内核，基于天朝内部网络现状，这一步能不能成功要靠科学和运气，所以为了避免安装失败，需要加上&lt;code&gt;--ignore-scripts&lt;/code&gt;跳过 Chromium 内核的下载。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;npm i hexo-renderer-multi-markdown-it --save --ignore-scripts
+# 或者
+yarn add hexo-renderer-multi-markdown-it --ignore-scripts
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;puppeteer 主要是用来渲染 mermaid 流程图，只要文章中不使用 mermaid 就没有任何问题，如果要使用 mermaid 建议还是想办法完全安装。&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;&lt;a href=&#34;#配置&#34; class=&#34;headerlink&#34; title=&#34;配置&#34;&gt;&lt;/a&gt;配置&lt;/h2&gt;&lt;p&gt;加入&lt;code&gt;markdown&lt;/code&gt;配置，用来渲染 md 文件&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;markdown:
+  render: # 渲染器设置
+    html: false # 过滤 HTML 标签
+    xhtmlOut: true # 使用 &amp;#39;/&amp;#39; 来闭合单标签 （比如 &amp;lt;br /&amp;gt;）。
+    breaks: true # 转换段落里的 &amp;#39;\n&amp;#39; 到 &amp;lt;br&amp;gt;。
+    linkify: true # 将类似 URL 的文本自动转换为链接。
+    typographer: 
+    quotes: &amp;#39;“”‘’&amp;#39;
+  plugins: # markdown-it 插件设置
+    - plugin:
+        name: markdown-it-toc-and-anchor
+        enable: true
+        options: # 文章目录以及锚点应用的 class 名称，shoka 主题必须设置成这样
+          tocClassName: &amp;#39;toc&amp;#39;
+          anchorClassName: &amp;#39;anchor&amp;#39;
+    - plugin:
+        name: markdown-it-multimd-table
+        enable: true
+        options:
+          multiline: true
+          rowspan: true
+          headerless: true
+    - plugin:
+        name: ./markdown-it-furigana
+        enable: true
+        options:
+          fallbackParens: &amp;quot;()&amp;quot;
+    - plugin:
+        name: ./markdown-it-spoiler
+        enable: true
+        options:
+          title: &amp;quot;你知道得太多了&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;加入&lt;code&gt;minify&lt;/code&gt;配置，压缩 css&amp;#x2F;js&amp;#x2F;html&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;minify:
+  html:
+    enable: true
+    exclude: # 排除 hexo-feed 用到的模板文件
+      - &amp;#39;**/json.ejs&amp;#39;
+      - &amp;#39;**/atom.ejs&amp;#39;
+      - &amp;#39;**/rss.ejs&amp;#39;
+  css:
+    enable: true
+    exclude:
+      - &amp;#39;**/*.min.css&amp;#39;
+  js:
+    enable: true
+    mangle:
+      toplevel: true
+    output:
+    compress:
+    exclude:
+      - &amp;#39;**/*.min.js&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;停用默认代码高亮功能，否则代码块的 mac 样式不能正常显示。&lt;br&gt;找到&lt;code&gt;highlight&lt;/code&gt;和&lt;code&gt;prismjs&lt;/code&gt;，把&lt;code&gt;enable&lt;/code&gt;改成&lt;code&gt;false&lt;/code&gt;。&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;highlight:
+  enable: false
+prismjs:
+  enable: false
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;autoprefixer-配置建议&#34;&gt;&lt;a href=&#34;#autoprefixer-配置建议&#34; class=&#34;headerlink&#34; title=&#34;autoprefixer 配置建议&#34;&gt;&lt;/a&gt;autoprefixer 配置建议&lt;/h1&gt;&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;autoprefixer:
+  exclude:
+    - &amp;#39;*.min.css&amp;#39;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;缺少这个插件，首页卡片反转效果在部分浏览器中无法正确显示&lt;/p&gt;
+&lt;h1 id=&#34;algolia-配置建议&#34;&gt;&lt;a href=&#34;#algolia-配置建议&#34; class=&#34;headerlink&#34; title=&#34;algolia 配置建议&#34;&gt;&lt;/a&gt;algolia 配置建议&lt;/h1&gt;&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;algolia:
+  appId: #Your appId
+  apiKey: #Your apiKey
+  adminApiKey: #Your adminApiKey
+  chunkSize: 5000
+  indexName: #&amp;quot;shoka&amp;quot;
+  fields:
+    - title #必须配置
+    - path #必须配置
+    - categories #推荐配置
+    - content:strip:truncate,0,2000
+    - gallery
+    - photos
+    - tags
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;#feed 配置建议&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;keywords: #站点关键词，用 “,” 分隔
+feed:
+    limit: 20
+    order_by: &amp;quot;-date&amp;quot;
+    tag_dir: false
+    category_dir: false
+    rss:
+        enable: true
+        template: &amp;quot;themes/shoka/layout/_alternate/rss.ejs&amp;quot;
+        output: &amp;quot;rss.xml&amp;quot;
+    atom:
+        enable: true
+        template: &amp;quot;themes/shoka/layout/_alternate/atom.ejs&amp;quot;
+        output: &amp;quot;atom.xml&amp;quot;
+    jsonFeed:
+        enable: true
+        template: &amp;quot;themes/shoka/layout/_alternate/json.ejs&amp;quot;
+        output: &amp;quot;feed.json&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
         </item>
         <item>
             <guid isPermalink="true">https://onsaki.com/hexo-theme-shoka/shoka/</guid>
@@ -563,80 +753,72 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
             <category term="学习笔记" scheme="https://onsaki.com/categories/study-notes/" />
             <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 19 Apr 2022 10:08:38 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMjE4MjAzODUwNC9HQU90WjNhaXI=&#34;&gt;B 站上值得学习的公开课大合集&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMjE4MjAzODUwNC9HQU90WjNhaXI=&#34;&gt;B 站上值得学习的公开课大合集&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;最近一直沉迷于 B 站，在浏览了众多纪录片和学习资源之后，又发现了一些很实用的大学公开课。&lt;/p&gt;
 &lt;p&gt;虽然现在网上课程视频很多，可是像 B 站这样一边看课程一边交流还是很 nice 的。&lt;/p&gt;
-&lt;h3 id=&#34;经济类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经济类&#34;&gt;#&lt;/a&gt; ☆经济类&lt;/h3&gt;
-&lt;p&gt;【中央财经大学】金融学（一）-- 李健、左毓秀、黄昌利等&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjgzMzY1MzQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【人民大学】曼昆 《宏观经济学》 程华 全 19 章&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1MjU2MDUw&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】财务分析与决策 - 肖星&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE5ODU0NDc4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【西南财经大学】计量经济学（庞皓）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE2MTU1NTY0&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+&lt;h2 id=&#34;经济类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#经济类&#34;&gt;#&lt;/a&gt; ☆经济类&lt;/h2&gt;
+&lt;p&gt;【中央财经大学】金融学（一）-- 李健、左毓秀、黄昌利等&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODMzNjUzNA==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【人民大学】曼昆 《宏观经济学》 程华 全 19 章&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTUyNTYwNTA=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】财务分析与决策 - 肖星&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTk4NTQ0Nzg=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【西南财经大学】计量经济学（庞皓）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTYxNTU1NjQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
 【北京大学】货币银行学 -- 黄益平主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL0JWMVJ4NDExTDdveA==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中南财经政法大学】货币金融学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIzMTYyNDYz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】马克思主义政治经济学原理&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE4OTI2NzY4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中南财经政法大学】会计学原理 -- 唐国平龚翔等老师&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIwNDAwNzYy&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【斯坦福大学】经济学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzOTc1MTE3&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【香港大学】美国经济危机的反思&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzODEyMTMz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【华东师范大学】经济地理学（完）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIyMjA1ODQ0&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;法律类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#法律类&#34;&gt;#&lt;/a&gt; ☆法律类&lt;/h3&gt;
-&lt;p&gt;【北京大学】刑法总论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMjQ4MTYy&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中国政法大学】犯罪心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE0OTAxODE1&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中国政法大学】微表情 心理应激微反应刑事侦查应用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1MjE2NzY2&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【北京大学】刑法分论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMjQ4NjY2&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中国政法大学】民事诉讼法庭审案例点评 （上）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1OTAwMTU0&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中国人民大学】穿越今古的法律智慧&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1ODEwOTA5&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中国政法大学】知识产权法学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1MjE3OTY1&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【西南政法大学】中国法制史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1ODEwMjIx&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【上海交通大学】法与社会&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg5MTYyOTY=&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;心理学类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#心理学类&#34;&gt;#&lt;/a&gt; ☆心理学类&lt;/h3&gt;
-&lt;p&gt;【耶鲁大学】心理学导论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg2Mzg3&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【中科院】心理学与生活&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIzMTYwMTYx&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【加州大学伯克利分校】社会认知心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1NzA1MzUz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【电子科技大学】管理心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjc1ODM2ODk=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【哈佛大学】幸福课积极心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjk5MTY1ODY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【南开大学】心理学与生活 管健副教授主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE2ODY3Mzkz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【斯坦福大学】如何像心理学家一样思考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIyNjQyMTEz&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【耶鲁大学】关于食物的心理学、生物学和政治学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjczMjI0Nw==&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;哲学类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#哲学类&#34;&gt;#&lt;/a&gt; ☆哲学类&lt;/h3&gt;
-&lt;p&gt;【武汉大学】西方哲学史 赵林 邓晓芒&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjY5MjM5NzglMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】 马克思主义哲学史 46 讲 主讲 - 吴晓明&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNTA0NTAwJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】 裘锡圭 王国维系列讲座：老子与尼采&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg2NzEzNDAlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【北京大学】 社会学概论 65 集，卢晖临主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzNDg4MTYzJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】西方近现代史思想史 秦晖 教授&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjY1MDc5MjIlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】秦晖公开课：中国思想史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjcxODMyOTglMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】 庄子精读 全 48 讲 主讲 - 陈引驰&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjExMDM4ODc5JTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【南京大学】 欧陆哲学与英美哲学 主讲 - 陈亚军。王恒&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNTUyNjAxJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】 丁耘老师，理想国导读&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjc0ODc5MTIlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【武汉大学】 中国古典哲学名著选读 主讲 - 杜小安&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjExNTc5OTk0JTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】 当代外国哲学 主讲 - 徐英瑾&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNTI3NjMyJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;文化艺术类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文化艺术类&#34;&gt;#&lt;/a&gt; ☆文化艺术类&lt;/h3&gt;
-&lt;p&gt;【清华大学】杨琪：艺术学原理与美术鉴赏&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjQ2MTI3MjMlMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【北京大学】西方美术史（全 26 讲）丁宁&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzMDc0MTE3&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【西南交通大学】 中国衣裳 —— 传统服装文化&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIyMDU1MDU2&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【台湾清华大学】中国历史的演变与发展（中国通史）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjQ2MTI3MjMlMkY=&#34;&gt;网页链&lt;/span&gt;&lt;br /&gt;
-【清华大学】 怎样研究中国家庭史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMzI2ODAwJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】名画百幅赏析&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjU0NTc1MzglMkY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】张夫也：外国工艺美术史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE0MzUzNzM4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】刘怀勇：画家学习书法&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyNDA3MjI1JTJG&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【台湾大学】汉书&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjYyODIwNzU=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【清华大学】审美的历程&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE1OTc0Nzky&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【北京大学】中国当代文学史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjg5NjM3ODQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】探秘《红楼梦》全 12 集 教授郭建主&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjM2MTY2NzI=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】中国文学批评史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEzNjQ3NjE4&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【北师大】中国古代文学史（唐代部分）康震教授&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMTMyODMx&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【北师大】中国古代文学史（元明清部分）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjEyMTY2MjQ0&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【陕师大】中国古代文学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjE4NTYyODUy&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
-【复旦大学】葛剑雄老师：历史地理与中国人口史研究&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3d3cuYmlsaWJpbGkuY29tJTJGdmlkZW8lMkZhdjIxNzU3NDI2&#34;&gt;网页链接&lt;/span&gt;收起&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://onsaki.com/notes/notes-7/</guid>
-            <title>发现了一个可以「自制Emoji表情」的网站！！</title>
-            <link>https://onsaki.com/notes/notes-7/</link>
-            <category term="闲散随笔" scheme="https://onsaki.com/categories/notes/" />
-            <pubDate>Tue, 19 Apr 2022 09:55:07 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNjEzOTcyODU2Ni9IY3UzZzlHYkk=&#34;&gt;发现了一个可以【自制 emoji 表情】的网站！！&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;发现了一个可以【自制 emoji 表情】的网站！！ 可以随心搭配脸型、眼睛、嘴和装饰，甚至支持本地上传图片做素材&lt;img data-src=&#34;https://face.t.sinajs.cn/t4/appstyle/expression/ext/normal/c9/2018new_chongjing_org.png&#34; alt=&#34;[憧憬]&#34; title=&#34;[憧憬]&#34; /&gt; 存成图片后还能手动添加到某信表情包～ * 传送门：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZwaGxudG4uY29tJTJGZW1vamlidWlsZGVyJTJG&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+【中南财经政法大学】货币金融学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjMxNjI0NjM=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】马克思主义政治经济学原理&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTg5MjY3Njg=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中南财经政法大学】会计学原理 -- 唐国平龚翔等老师&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjA0MDA3NjI=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【斯坦福大学】经济学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTM5NzUxMTc=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【香港大学】美国经济危机的反思&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTM4MTIxMzM=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【华东师范大学】经济地理学（完）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjIyMDU4NDQ=&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;法律类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#法律类&#34;&gt;#&lt;/a&gt; ☆法律类&lt;/h2&gt;
+&lt;p&gt;【北京大学】刑法总论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTIyNDgxNjI=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】犯罪心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTQ5MDE4MTU=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】微表情 心理应激微反应刑事侦查应用&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTUyMTY3NjY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】刑法分论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTIyNDg2NjY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】民事诉讼法庭审案例点评 （上）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTU5MDAxNTQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国人民大学】穿越今古的法律智慧&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTU4MTA5MDk=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中国政法大学】知识产权法学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTUyMTc5NjU=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【西南政法大学】中国法制史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTU4MTAyMjE=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【上海交通大学】法与社会&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODkxNjI5Ng==&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;心理学类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#心理学类&#34;&gt;#&lt;/a&gt; ☆心理学类&lt;/h2&gt;
+&lt;p&gt;【耶鲁大学】心理学导论&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODYzODc=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【中科院】心理学与生活&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjMxNjAxNjE=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【加州大学伯克利分校】社会认知心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTU3MDUzNTM=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【电子科技大学】管理心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzU4MzY4OQ==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【哈佛大学】幸福课积极心理学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2OTkxNjU4Ng==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【南开大学】心理学与生活 管健副教授主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTY4NjczOTM=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【斯坦福大学】如何像心理学家一样思考&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjI2NDIxMTM=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【耶鲁大学】关于食物的心理学、生物学和政治学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzMyMjQ3&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;哲学类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#哲学类&#34;&gt;#&lt;/a&gt; ☆哲学类&lt;/h2&gt;
+&lt;p&gt;【武汉大学】西方哲学史 赵林 邓晓芒&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NjkyMzk3OC8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 马克思主义哲学史 46 讲 主讲 - 吴晓明&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTI1MDQ1MDAv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 裘锡圭 王国维系列讲座：老子与尼采&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODY3MTM0MC8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】 社会学概论 65 集，卢晖临主讲&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTM0ODgxNjMv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】西方近现代史思想史 秦晖 教授&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NjUwNzkyMi8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】秦晖公开课：中国思想史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzE4MzI5OC8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 庄子精读 全 48 讲 主讲 - 陈引驰&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTEwMzg4Nzkv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【南京大学】 欧陆哲学与英美哲学 主讲 - 陈亚军。王恒&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTI1NTI2MDEv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 丁耘老师，理想国导读&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzQ4NzkxMi8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【武汉大学】 中国古典哲学名著选读 主讲 - 杜小安&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTE1Nzk5OTQv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】 当代外国哲学 主讲 - 徐英瑾&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTI1Mjc2MzIv&#34;&gt;网页链接&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文化艺术类&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#文化艺术类&#34;&gt;#&lt;/a&gt; ☆文化艺术类&lt;/h2&gt;
+&lt;p&gt;【清华大学】杨琪：艺术学原理与美术鉴赏&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NDYxMjcyMy8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】西方美术史（全 26 讲）丁宁&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTMwNzQxMTc=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【西南交通大学】 中国衣裳 —— 传统服装文化&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjIwNTUwNTY=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【台湾清华大学】中国历史的演变与发展（中国通史）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NDYxMjcyMy8=&#34;&gt;网页链&lt;/span&gt;&lt;br /&gt;
+【清华大学】 怎样研究中国家庭史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTIzMjY4MDAv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】名画百幅赏析&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTQ1NzUzOC8=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】张夫也：外国工艺美术史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTQzNTM3Mzg=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】刘怀勇：画家学习书法&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTI0MDcyMjUv&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【台湾大学】汉书&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NjI4MjA3NQ==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【清华大学】审美的历程&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTU5NzQ3OTI=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北京大学】中国当代文学史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODk2Mzc4NA==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】探秘《红楼梦》全 12 集 教授郭建主&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MzYxNjY3Mg==&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】中国文学批评史&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTM2NDc2MTg=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北师大】中国古代文学史（唐代部分）康震教授&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTIxMzI4MzE=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【北师大】中国古代文学史（元明清部分）&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTIxNjYyNDQ=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【陕师大】中国古代文学&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTg1NjI4NTI=&#34;&gt;网页链接&lt;/span&gt;&lt;br /&gt;
+【复旦大学】葛剑雄老师：历史地理与中国人口史研究&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjE3NTc0MjY=&#34;&gt;网页链接&lt;/span&gt;收起&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -646,91 +828,10 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
             <category term="观影" scheme="https://onsaki.com/categories/film/" />
             <category term="看片" scheme="https://onsaki.com/tags/%E7%9C%8B%E7%89%87/" />
             <pubDate>Tue, 19 Apr 2022 09:53:23 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMTQwMTUyNzU1My9JaHFwSDlvUDg=&#34;&gt;听说维密秀要取消了。&lt;/span&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vMTQwMTUyNzU1My9JaHFwSDlvUDg=&#34;&gt;听说维密秀要取消了。&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;2018:288b3a2d9b34212ff66dcd3d50360e4b2c96fb0c 2017:2c39ae1522ca69539107a2f81aeb9bf1befa6674 2016:3275ec9463bf3fb7ecd20d4db7a8380f04343667 2015:e74c873b56c3dc982f22540ee620e50ad060600e 2014:6f30f280619f34b82e0916631c5f68c30b6bc60a 2013:ac9a21a2becc01fc61e5f90c99046980d9feddee 2012:8e0fd7b0f6645c768ffad2a2bc0b355676539ee6 2011:4fdd6c23960dc50ab1649dbc7fde39361ea78c3a 2010:8deb0a6f5408b246b2adcb2f3ab0d7c3cc39075b&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://onsaki.com/study-notes/study-10/</guid>
-            <title>如何用10分钟建立基于加密稳定币的付费阅读网站</title>
-            <link>https://onsaki.com/study-notes/study-10/</link>
-            <category term="学习笔记" scheme="https://onsaki.com/categories/study-notes/" />
-            <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
-            <pubDate>Tue, 19 Apr 2022 09:47:56 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vdHRhcnRpY2xlL3Avc2hvdz9pZD0yMzA5NDA0NDY3MjYxMDAyODc1MTU5&#34;&gt;如何用 10 分钟建立基于加密稳定币的付费阅读网站&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://wx3.sinaimg.cn/large/40dfde6fly1gbh6u4ci91j20rs0fmwp2.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;本文将介绍一种通过 WordPress 插件和 FOUSDT（ 一种加密稳定币，约等值于美元 ）架设付费阅读服务的方式。&lt;/p&gt;
-&lt;p&gt;文章包含以下内容：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;获得 WordPress&lt;/li&gt;
-&lt;li&gt;安装 Fo-Pay 插件&lt;/li&gt;
-&lt;li&gt;在发布文章时启用付费阅读&lt;/li&gt;
-&lt;li&gt;调整注册设置，让用户注册更简单&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;获得-wordpress&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#获得-wordpress&#34;&gt;#&lt;/a&gt; 获得 WordPress&lt;/h2&gt;
-&lt;p&gt;最简单的方式是直接购买 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3b3JkcHJlc3MuY29tJTJG&#34;&gt;wordpress.com&lt;/span&gt; 的托管版本，这样不需要自己安装。如果你没有现成的服务器，而且不懂技术，这是最好的选择。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/eb59b0f188f5a8f618917bcd46a75fdd&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;但需要注意以下几点：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;国内网络访问不太顺畅。&lt;/li&gt;
-&lt;li&gt;只有 25 美金每月的商务版才能上传插件。&lt;/li&gt;
-&lt;li&gt;由于作者没有商务版，我们要用到的插件并没有在其平台上测试过。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;所以这个方案留给土豪们。&lt;/p&gt;
-&lt;p&gt;退而求其次，我们可以选择在内置了预装镜像的云平台进行购买。比如 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZtLmRvLmNvJTJGYyUyRmFlOTBjN2Y1NzlmYw==&#34;&gt;DigitalOcean&lt;/span&gt; ，在创建 Droplets 时，点击 Markectplace 就可以看到。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/d7cd3cdc9e4d0bd2801135b52ba78da2&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;如果你只是想先在电脑上测试，那么可以下载 bitnami 的安装包。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZiaXRuYW1pLmNvbSUyRnN0YWNrJTJGd29yZHByZXNz&#34;&gt;https://bitnami.com/stack/wordpress&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;在同一个页面，也介绍了如何通过 Docker 镜像来安装。这要求你会使用命令行工具。由于细节过于技术化，本文就不展开了。&lt;/p&gt;
-&lt;h2 id=&#34;安装-fo-pay-插件&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#安装-fo-pay-插件&#34;&gt;#&lt;/a&gt; 安装 FO-Pay 插件&lt;/h2&gt;
-&lt;p&gt;在成功安装 WordPress 后，以管理员身份登入，进入仪表盘。在插件菜单中选择「安装插件」。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/867b15b27fe4200a798c1b33c5bb18b5&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;点击「上传插件」按钮，把 Fo-pay.zip 上传上来。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/8608b35a507aa3b67ac0f2fcc6138732&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;上传完成后，启用插件。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/fb24567d2fbf66773f67efecaa683511&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;然后我们需要进行必要的配置。&lt;/p&gt;
-&lt;p&gt;点击仪表盘「设置」菜单的「FO 支付设置」进入设置界面。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/8a0ac33a1a703ace29eaa254c96bc811&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;设置很简单，收款账户当然就是收钱用的了。没有 FIBOS 账户的同学可以去下载一个 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZ3YWxsZXQuZm8lMkZ6aC1jbiUyRg==&#34;&gt;FO 钱包&lt;/span&gt;，可以免费生成一个。&lt;/p&gt;
-&lt;p&gt;博客唯一码稍微难以理解一些。简单的说就是，插件是通过检查收款交易中的备注信息来确定是否付款的。如果我们有多个博客都用一个收款账户，就会出现文章 id 重复的情况。所以会把博客唯一码作为前缀来区分。&lt;/p&gt;
-&lt;p&gt;如果你理解不了上边这段文字，只要随便填一个短数字就好了。&lt;/p&gt;
-&lt;p&gt;记得保存更改。&lt;/p&gt;
-&lt;h2 id=&#34;在发布文章时使用付费阅读&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#在发布文章时使用付费阅读&#34;&gt;#&lt;/a&gt; 在发布文章时使用付费阅读&lt;/h2&gt;
-&lt;p&gt;之后我们就可以在发布文章是使用付费阅读了。点击仪表盘中的「写文章」进入编辑器界面。然后再右侧的三点菜单中选择「选项」，把「高级面板」中的「自定义字段」选上，然后保存。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/f0f5b0263b9c744b65df64a23c2974f9&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;这样在编辑框下边会出现一个「自定义字段」表单。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/d032491a4cee20b63767aa88e9a4ed1f&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在「自定义字段」表单中，选择「输入新栏目」，名称为「fo-usdt-price」，值为文章对应的价格，单位是分。由于 FOUSDT 约等于美元，所以这里填 100，就是大概 1 美元的价格。&lt;/p&gt;
-&lt;p&gt;注意第一次添加自定义字段栏目后，再发布文章可以直接从下拉框中选择。&lt;/p&gt;
-&lt;p&gt;免费文章不选择此字段，或者值写成 0 都行。&lt;/p&gt;
-&lt;p&gt;在文章中，付费内容使用下图的标签进行包裹。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://wx4.sinaimg.cn/large/40dfde6fly4gbh6kma5z9j206f01xjr7.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;当文章中没有此标签时，全文会被认为都是付费内容。由于新版 WordPress 启用了区块编辑器，你可以将 pay 标签分到两个文本区块中，这样中间的区块都会被认为是付费内容。&lt;/p&gt;
-&lt;h2 id=&#34;调整注册策略让用户注册更简单&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#调整注册策略让用户注册更简单&#34;&gt;#&lt;/a&gt; 调整注册策略，让用户注册更简单&lt;/h2&gt;
-&lt;p&gt;由于付费阅读插件是基于用户的，所以我们还要调整下默认的用户注册策略。&lt;/p&gt;
-&lt;p&gt;首先在仪表盘→设置→常规页面，将成员资格后边的「任何人都能注册」选上；然后指定新注册用户为「订阅者」。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/aac217d7e83879b234329a990bd19ccc&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;面向海外用户的业务到这里就算完成了。但如果也有部分中国大陆的用户使用的业务，我们需要改掉 WordPress 注册时验证邮箱的功能。因为大陆的邮箱业务达到率是非常差的。&lt;/p&gt;
-&lt;p&gt;这时候我们可以安装 User Registration 插件。进入仪表盘→插件→安装插件 页面，在右侧的搜索框中输入 「 User Registration 」，点击框出的那个插件进行安装。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/563f399bf5765ab284e53249b6c7eb82&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;注意有时候 WordPress 中国区的代理经常负载高，可能出现 too many connections 错误。这时候只要刷新页面重新点「现在安装」按钮就可以了。当然你也可以本地电脑切换网络下载后，直接上传上去。&lt;/p&gt;
-&lt;p&gt;安装并激活后，在仪表盘左侧菜单会出来一个「用户注册」菜单，点击设置。将「用户登录选项」选择为「注册后自动登录」或者「注册后手动登录」。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/b9c005ffde8f2a41e35ae24aba211ba3&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;这样插件就会创建一个名为「注册」的新页面，通过这个页面注册的用户是无需走邮件确认流程的。&lt;/p&gt;
-&lt;p&gt;如果你使用的是默认的 2020 模板，那么在右上角应该能看到这个注册链接。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/aa34f4b460d6e8d9f8f2fa333525e160&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;再来处理最后一个细节。在默认的功能小组件（widget）里边，有一个叫「功能」的区块，它里边的注册链接还是 WordPress 原来的。进入仪表盘→外观→小工具。&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://r.sinaimg.cn/large/article/ab1dfec6999e37dab698200700783443&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;在 「页脚 #2」中把「功能」一项去掉。当然，你也可以手工在加一个「文本」区块，把注册和登录链接都写上。&lt;/p&gt;
-&lt;h2 id=&#34;总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#总结&#34;&gt;#&lt;/a&gt; 总结&lt;/h2&gt;
-&lt;p&gt;到这里，我们的付费阅读服务就搭建完成了。采用 FOUSDT 可以全球转账，快速又安全，而且没有手续费。&lt;/p&gt;
-&lt;p&gt;不放心持有 USDT 的同学，可以通过 UUEX 或者去中心化 OTC Dapp 兑换为美金。后者也没有手续费的，但一美金会有几分钱人民币的损耗。&lt;/p&gt;
-&lt;p&gt;通过自己搭建的 WordPress ，可以完全控制一切，不用像在别人的平台上那样看人脸色、受人牵制。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;让创作者们得到应有的、开放的、自由的创作环境，并在全球范围内，通过受众的付费支持获得持续的发展。​&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;这是我编写这个插件的初衷。希望它可以帮到你。&lt;/p&gt;
-&lt;p&gt;插件下载地址：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cHMlM0ElMkYlMkZnaXRodWIuY29tJTJGZWFzeWNoZW4lMkZmby1wYXklMkZyZWxlYXNlcw==&#34;&gt;https://github.com/easychen/fo-pay/releases&lt;/span&gt;&lt;/p&gt;
-&lt;hr /&gt;
-&lt;p&gt;PS:  如果你想体验下支付过程，可以试试这篇约 1 美分的付费文章。&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jbi9zaW5hdXJsP3U9aHR0cCUzQSUyRiUyRmZvLnNsaWRlY2hhbi5jb20lM0E4MDg4JTJGMjAyMCUyRjAyJTJGMDElMkZmby1wYXktdGVzdDAwMiUyRg==&#34;&gt;http://fo.slidechan.com:8088/2020/02/01/fo-pay-test002/&lt;/span&gt;&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -740,7 +841,9 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
             <category term="学习笔记" scheme="https://onsaki.com/categories/study-notes/" />
             <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 19 Apr 2022 09:39:11 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;strong&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNTUzODM4NzcxNi9JdUNSeGJBdTQ=&#34;&gt;https://weibo.com/5538387716/IuCRxbAu4&lt;/span&gt;&lt;/strong&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;blockquote&gt;
+&lt;p&gt;原文链接：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93ZWliby5jb20vNTUzODM4NzcxNi9JdUNSeGJBdTQ=&#34;&gt;https://weibo.com/5538387716/IuCRxbAu4&lt;/span&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;每天只要 10 分钟，就能快速掌握一个知识点。&lt;/p&gt;
 &lt;p&gt;这门课程从一战起因，到牛顿定律，再到宇宙起源，世界之大，几乎包含了你想要的所有知识点。&lt;/p&gt;
 &lt;p&gt;由 Hank Green 和 John Green 在 Youtube 上制作的免费系列课程，每集大约在 10-15 分钟，穿插一些无厘头搞笑段子和精良动画，简明扼要、深入浅出的讲大量的知识点，同时也是个锻炼英语的好时机！要详细理解这些知识点需要反复听，记笔记，不懂的地方自己找其他的资料补充到笔记里。&lt;/p&gt;
@@ -750,78 +853,78 @@ PS：jsDelivr 并不是实时更新，重新生成文件后需要耐心等待&lt
 因为有时候，恶确实会杀死我们。&lt;br /&gt;
 而恶在杀死我们前，我们来不及从所受的苦难中成长和学习。&lt;/p&gt;
 &lt;p&gt;下面放上链接合集。&lt;/p&gt;
-&lt;h3 id=&#34;一-文学艺术篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-文学艺术篇&#34;&gt;#&lt;/a&gt; 一、文学艺术篇&lt;/h3&gt;
+&lt;h2 id=&#34;一-文学艺术篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#一-文学艺术篇&#34;&gt;#&lt;/a&gt; 一、文学艺术篇&lt;/h2&gt;
 &lt;p&gt;Crash Course：English Literature 英语文学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav7201377%3Ffrom%3Dsearch%26seid%3D4797321874374009048&#34;&gt;【十分钟速成课：英语文学】第 01 集：如何阅读 为何阅读&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzIwMTM3Nw==&#34;&gt;【十分钟速成课：英语文学】第 01 集：如何阅读 为何阅读&lt;/span&gt;&lt;br /&gt;
  Crash Course：Film History 电影史&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav14488202%3Ffrom%3Dsearch%26seid%3D13065298161580124245&#34;&gt;【合集】十分钟速成课・电影史 全 16 期 + 预告 + 花絮&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTQ0ODgyMDI=&#34;&gt;【合集】十分钟速成课・电影史 全 16 期 + 预告 + 花絮&lt;/span&gt;&lt;br /&gt;
  Crash Course：Film Criticism 电影鉴赏&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav18579573%2F%3Fspm_id_from%3D333.788.videocard.1&#34;&gt;【十分钟速成课・电影鉴赏】第 01 期：《公民凯恩》&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTg1Nzk1NzMv&#34;&gt;【十分钟速成课・电影鉴赏】第 01 期：《公民凯恩》&lt;/span&gt;&lt;br /&gt;
 Crash Course：Media literacy 媒介素养&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav32177692%3Ffrom%3Dsearch%26seid%3D18266807916044342193&#34;&gt;【完结 - 双语】十分钟速成课 - 传播学 (媒介素养)(12 集全 + 预告)&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MzIxNzc2OTI=&#34;&gt;【完结 - 双语】十分钟速成课 - 传播学 (媒介素养)(12 集全 + 预告)&lt;/span&gt;&lt;br /&gt;
  Crash Course：Literature 文学（无字幕版）&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav73954221%3Ffrom%3Dsearch%26seid%3D7997750057756967940&#34;&gt;# 十分钟速成课 - 合集 - 文学（1-4 季全） #Crash Course - Literature&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzM5NTQyMjE=&#34;&gt;# 十分钟速成课 - 合集 - 文学（1-4 季全） #Crash Course - Literature&lt;/span&gt;&lt;br /&gt;
 Crash Course：Theater and Drama 剧院与戏剧（无字幕版）&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav85108235%3Ffrom%3Dsearch%26seid%3D2459602787592732141&#34;&gt;# 十分钟速成课 - 合集 - 剧院与戏剧 #Crash Course - Theater and Drama&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;二-经济篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-经济篇&#34;&gt;#&lt;/a&gt; 二、经济篇&lt;/h3&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODUxMDgyMzU=&#34;&gt;# 十分钟速成课 - 合集 - 剧院与戏剧 #Crash Course - Theater and Drama&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;二-经济篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#二-经济篇&#34;&gt;#&lt;/a&gt; 二、经济篇&lt;/h2&gt;
 &lt;p&gt;Crash Course：Economics 经济学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav5525125&#34;&gt;【合集】10 分钟速成课：经济学【预告 + 全 35 集 + 花絮】&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTUyNTEyNQ==&#34;&gt;【合集】10 分钟速成课：经济学【预告 + 全 35 集 + 花絮】&lt;/span&gt;&lt;br /&gt;
 Crash Course：Intellectual Property 知识产权&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav5490679&#34;&gt;【合集】10 分钟速成课：知识产权【全 7 集 + 花絮】&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTQ5MDY3OQ==&#34;&gt;【合集】10 分钟速成课：知识产权【全 7 集 + 花絮】&lt;/span&gt;&lt;br /&gt;
 Crash Course: Business soft skills 商业技能&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav71062297%3Ffrom%3Dsearch%26seid%3D1620848213513580034&#34;&gt; #十分钟速成课 - 合集 - 商业技能 #Crash Course - Business soft skills&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NzEwNjIyOTc=&#34;&gt; #十分钟速成课 - 合集 - 商业技能 #Crash Course - Business soft skills&lt;/span&gt;&lt;br /&gt;
 Crash Course：Entrepreneurship 创业&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav85233281%3Ffrom%3Dsearch%26seid%3D15491578452390169328&#34;&gt;【商业速成课：创业】Entrepreneurship - [18 集全 / 中英双语] - Crash Course Entrepreneurship&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODUyMzMyODE=&#34;&gt;【商业速成课：创业】Entrepreneurship - [18 集全 / 中英双语] - Crash Course Entrepreneurship&lt;/span&gt;&lt;br /&gt;
 Crash Course：Statistics 统计学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav84276673%3Ffrom%3Dsearch%26seid%3D11469756481756854633&#34;&gt;【统计学速成课】Statistics - [45 集全 / 中英双语] - Crash Course Statistics&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;三-历史文化篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-历史文化篇&#34;&gt;#&lt;/a&gt; 三、历史文化篇&lt;/h3&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODQyNzY2NzM=&#34;&gt;【统计学速成课】Statistics - [45 集全 / 中英双语] - Crash Course Statistics&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;三-历史文化篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#三-历史文化篇&#34;&gt;#&lt;/a&gt; 三、历史文化篇&lt;/h2&gt;
 &lt;p&gt;Crash Course: Big History Season 大历史&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav28126050%3Ffrom%3Dsearch%26seid%3D15319985364136653354&#34;&gt; Crash Course--《大历史》&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjgxMjYwNTA=&#34;&gt; Crash Course-《大历史》&lt;/span&gt;&lt;br /&gt;
 Crash Course: World History 世界历史&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav12659063%3Ffrom%3Dsearch%26seid%3D7717032311513538187&#34;&gt;【Crash Course】 世界历史第二季【中英双重字幕】&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTI2NTkwNjM=&#34;&gt;【Crash Course】 世界历史第二季【中英双重字幕】&lt;/span&gt;&lt;br /&gt;
 Crash Course: European History 欧洲史&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav49174379%3Ffrom%3Dsearch%26seid%3D596879539930758907&#34;&gt;【十分钟速成课 - 欧洲史】第 1 集：欧洲中世纪&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NDkxNzQzNzk=&#34;&gt;【十分钟速成课 - 欧洲史】第 1 集：欧洲中世纪&lt;/span&gt;&lt;br /&gt;
  Crash Course: US History 美国历史&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav9082775%3Ffrom%3Dsearch%26seid%3D15364224398572202684&#34;&gt;【新坑】十分钟速成课・美国史 第 01 期：原住民与西班牙人&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2OTA4Mjc3NQ==&#34;&gt;【新坑】十分钟速成课・美国史 第 01 期：原住民与西班牙人&lt;/span&gt;&lt;br /&gt;
  Crash Course: World Mythology 世界神话&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav8694513%3Ffrom%3Dsearch%26seid%3D694242470329494531&#34;&gt; [合集] 10 分钟速成课：世界神话 [Crash Course World Mythology][Preview-E39]&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;四-社科篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-社科篇&#34;&gt;#&lt;/a&gt; 四、社科篇&lt;/h3&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODY5NDUxMw==&#34;&gt; [合集] 10 分钟速成课：世界神话 [Crash Course World Mythology][Preview-E39]&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;四-社科篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#四-社科篇&#34;&gt;#&lt;/a&gt; 四、社科篇&lt;/h2&gt;
 &lt;p&gt;Crash Course: Philosophy 哲学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav13762839&#34;&gt; 10 分钟速成课：哲学【预告 + 全 46 集 + 花絮】【720P 高清双语】&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTM3NjI4Mzk=&#34;&gt; 10 分钟速成课：哲学【预告 + 全 46 集 + 花絮】【720P 高清双语】&lt;/span&gt;&lt;br /&gt;
 Crash Course: Psychology 心理学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav1786361&#34;&gt;【合集】10 分钟速成课：心理学【预告 + 全 40 集 + 花絮】&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTc4NjM2MQ==&#34;&gt;【合集】10 分钟速成课：心理学【预告 + 全 40 集 + 花絮】&lt;/span&gt;&lt;br /&gt;
 Crash Course: Sociology 社会学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav14718337&#34;&gt;【10 分钟速成课：社会学】第 1 集 - 什么是社会学？&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTQ3MTgzMzc=&#34;&gt;【10 分钟速成课：社会学】第 1 集 - 什么是社会学？&lt;/span&gt;&lt;br /&gt;
 Crash Course：Government and Politics 美国政府与政治&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav6206346%3Ffrom%3Dsearch%26seid%3D14303470966885405390&#34;&gt; Crash Course Government and Politics 十分钟速成课美国政府和政治（29 集不全，共 48&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;五-理工篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#五-理工篇&#34;&gt;#&lt;/a&gt; 五、理工篇&lt;/h3&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NjIwNjM0Ng==&#34;&gt; Crash Course Government and Politics 十分钟速成课美国政府和政治（29 集不全，共 48&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;五-理工篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#五-理工篇&#34;&gt;#&lt;/a&gt; 五、理工篇&lt;/h2&gt;
 &lt;p&gt;Crash Course: History of Science 科学史&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav54731956%3Ffrom%3Dsearch%26seid%3D11492583066897099362&#34;&gt; #十分钟速成课 - 合集 - 科学史 #Crash Course - History of science&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTQ3MzE5NTY=&#34;&gt; #十分钟速成课 - 合集 - 科学史 #Crash Course - History of science&lt;/span&gt;&lt;br /&gt;
 Crash Course: Computer Science 计算机科学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav21376839%3Ffrom%3Dsearch%26seid%3D5764616649967810746&#34;&gt;【计算机科学速成课】[40 集全 / 精校] - Crash Course Computer Science&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjEzNzY4Mzk=&#34;&gt;【计算机科学速成课】[40 集全 / 精校] - Crash Course Computer Science&lt;/span&gt;&lt;br /&gt;
 Crash Course: Engineering 工程学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav54722755%3Ffrom%3Dsearch%26seid%3D7300731158273779171&#34;&gt; #十分钟速成课 - 合集 - 工程学 #Crash Course - Engineering&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTQ3MjI3NTU=&#34;&gt; #十分钟速成课 - 合集 - 工程学 #Crash Course - Engineering&lt;/span&gt;&lt;br /&gt;
 Crash Course: Physics 物理学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav54756829%3Ffrom%3Dsearch%26seid%3D12013790176203636157&#34;&gt; #十分钟速成课 - 合集 - 物理 #Crash Course - Physics&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTQ3NTY4Mjk=&#34;&gt; #十分钟速成课 - 合集 - 物理 #Crash Course - Physics&lt;/span&gt;&lt;br /&gt;
 Crash Course: Biology 生物学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav8878228%3Ffrom%3Dsearch%26seid%3D5283644865738767204&#34;&gt; [熟肉] 十分钟生物学 Crash Course Biology&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2ODg3ODIyOA==&#34;&gt; [熟肉] 十分钟生物学 Crash Course Biology&lt;/span&gt;&lt;br /&gt;
 Crash Course: Anatomy&amp;amp;Physiology 解剖与生理&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav4722660&#34;&gt;【合集】10 分钟速成课：解剖与生理【预告 + 全 47 集 + 花絮】【720P 高清双语】&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NDcyMjY2MA==&#34;&gt;【合集】10 分钟速成课：解剖与生理【预告 + 全 47 集 + 花絮】【720P 高清双语】&lt;/span&gt;&lt;br /&gt;
 Crash Course: Ecology 生态学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav5254400%3Ffrom%3Dsearch%26seid%3D1124746317417131219&#34;&gt;【Crash Course】十分钟生态学&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NTI1NDQwMA==&#34;&gt;【Crash Course】十分钟生态学&lt;/span&gt;&lt;br /&gt;
  Crash Course: Chemistry 化学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav3875938%3Ffrom%3Dsearch%26seid%3D5361076561064558414&#34;&gt;【crash course】十分钟速成课：化学 第 1 集 — 原子核&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2Mzg3NTkzOA==&#34;&gt;【crash course】十分钟速成课：化学 第 1 集 — 原子核&lt;/span&gt;&lt;br /&gt;
  Crash Course：Astronomy 天文学&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav4685060%3Ffrom%3Dsearch%26seid%3D5760243852894548&#34;&gt;天文学速成班 [Crash Course Astronomy]&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NDY4NTA2MA==&#34;&gt;天文学速成班 [Crash Course Astronomy]&lt;/span&gt;&lt;br /&gt;
  Crash Course: AI 人工智能&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav62089571%3Ffrom%3Dsearch%26seid%3D2356848379000721332&#34;&gt;【十分钟速成课：人工智能】第 0 集 - 简介&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2NjIwODk1NzE=&#34;&gt;【十分钟速成课：人工智能】第 0 集 - 简介&lt;/span&gt;&lt;br /&gt;
  Crash Course：Machine Learning by Google 谷歌机器学习&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav20229263%3Ffrom%3Dsearch%26seid%3D10870393590938795882&#34;&gt; Google 机器学习速成教程 Machine Learning Crash Course by Google&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;六-其他篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六-其他篇&#34;&gt;#&lt;/a&gt; 六、其他篇&lt;/h3&gt;
+ [Google 机器学习速成教程 Machine Learning Crash Course by Google](&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjAyMjkyNjM=&#34;&gt;https://www.bilibili.com/video/av20229263&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;六-其他篇&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#六-其他篇&#34;&gt;#&lt;/a&gt; 六、其他篇&lt;/h2&gt;
 &lt;p&gt;Crash Course：Games 游戏&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav20656596%3Ffrom%3Dsearch%26seid%3D2733908424857578794&#34;&gt;【双语・完结】十分钟速成课：游戏（29 集全）&lt;/a&gt;&lt;br /&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MjA2NTY1OTY=&#34;&gt;【双语・完结】十分钟速成课：游戏（29 集全）&lt;/span&gt;&lt;br /&gt;
 Crash Course: 学习技能&lt;br /&gt;
-&lt;a href=&#34;//weibo.cn/sinaurl?u=https%3A%2F%2Fwww.bilibili.com%2Fvideo%2Fav16785517%3Ffrom%3Dsearch%26seid%3D3815211530660746201&#34;&gt;【合集】10 分钟速成课：学习技能【预告 + 全 10 集】【720P 高清双语】&lt;/a&gt;&lt;/p&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmlsaWJpbGkuY29tL3ZpZGVvL2F2MTY3ODU1MTc=&#34;&gt;【合集】10 分钟速成课：学习技能【预告 + 全 10 集】【720P 高清双语】&lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;视频配合笔记使用体验更佳。大家一定要做好笔记哦～收起&lt;/p&gt;
  ]]></description>
         </item>
@@ -832,7 +935,11 @@ Crash Course: 学习技能&lt;br /&gt;
             <category term="设计相关" scheme="https://onsaki.com/categories/%E8%AE%BE%E8%AE%A1%E7%9B%B8%E5%85%B3/" />
             <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 19 Apr 2022 09:32:06 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;让你的视频变成科幻大片，效果非常震撼 项目：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20vaml1cGluamlhL1NreUFS&#34;&gt;github.com/jiupinjia/SkyAR&lt;/span&gt;&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;让你的视频变成科幻大片，效果非常震撼 项目：&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL2dpdGh1Yi5jb20vaml1cGluamlhL1NreUFS&#34;&gt;github.com/jiupinjia/SkyAR&lt;/span&gt;&lt;br /&gt;
+&lt;img data-src=&#34;https://github.com/jiupinjia/SkyAR/raw/main/gallery/demo-annarbor-castle-cat_00_00_00-00_00_05.gif&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/zal9Ues0aOQ?si=T8py9zHa59xd_bX5&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -946,8 +1053,8 @@ Crash Course: 学习技能&lt;br /&gt;
             <category term="学习笔记" scheme="https://onsaki.com/categories/study-notes/" />
             <category term="学习" scheme="https://onsaki.com/tags/%E5%AD%A6%E4%B9%A0/" />
             <pubDate>Tue, 26 Jan 2021 18:47:45 +0800</pubDate>
-            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;%22/images/postimages/CFOP.jpg%22&#34; alt=&#34;GAN&#39;s CFOP 公式图&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;GAN CFOP 16-03 版&lt;/p&gt;
+            <description><![CDATA[ &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/Onsaki/oimage/post/20250801164154974.png&#34; alt=&#34;GAN&amp;#39;s CFOP 公式图&#34;&gt;&lt;/p&gt;
+&lt;p&gt;GAN CFOP 16-03版&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -1006,6 +1113,16 @@ Crash Course: 学习技能&lt;br /&gt;
 &lt;p&gt;近几年看了一点专业的文章也仔细研究过几个人分享出来的生活，好像能抓住一点线索。&lt;/p&gt;
 &lt;p&gt;但是还是有想不清楚的地方，他为什么突然厌倦，为什么突然选择结束。&lt;/p&gt;
 &lt;p&gt;难道不管什么样的生活到最后都会厌倦吗？&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://onsaki.com/notes/notes-4/</guid>
+            <title>Think Pad - 001</title>
+            <link>https://onsaki.com/notes/notes-4/</link>
+            <category term="闲散随笔" scheme="https://onsaki.com/categories/notes/" />
+            <category term="闪念" scheme="https://onsaki.com/tags/%E9%97%AA%E5%BF%B5/" />
+            <pubDate>Thu, 22 Oct 2020 03:32:04 +0800</pubDate>
+            <description><![CDATA[ &lt;p&gt;突然脑子里有了一个把建模和科幻结合起来的故事。 如果近几年不懒的话试试写成长篇小说，现在脑子里能想到的故事大概一百万字以内可以完成。 但是以我的懒和后期情节把控能力，估计最多写到 50 万。 到时候再说，先把想法记录下来。 一个普通人，意外得到了一个非常逆天的 3D 打印机。但是这个打印机不支持导入现实世界中已有的建模软件的模型文件，只能用打印机附赠的软件建模来打印物品。而这台打印机的几乎无所不能，甚至只要建模建的好，打印出一个活人也不是不可能。 主角为了打印出各种 nb 的东西，开始了学习建模的秃头之路。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>

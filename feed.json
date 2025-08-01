@@ -3,7 +3,7 @@
     "title": "丛林映象",
     "subtitle": "一颦一笑一回眸，一生记念。",
     "icon": "https://onsaki.com/assets/favicon.ico",
-    "description": "建这个博客的目的非常单纯且美好，就是骂一些在大多数平台不方便骂的人。",
+    "description": "路边的茶楼人影错落，街上传来两三声吆喝。人前摇扇醒木拍桌，各位看官你细听分说",
     "home_page_url": "https://onsaki.com",
     "items": [
         {
@@ -185,7 +185,7 @@
             "url": "https://onsaki.com/study-notes/study-7/",
             "title": "备份一个CFOP",
             "date_published": "2021-01-26T10:47:45.000Z",
-            "content_html": "<p><img data-src=\"https://cdn.jsdelivr.net/gh/Onsaki/oimage/post/20250801164154974.png\" alt=\"GAN&#39;s CFOP 公式图\"></p>\n<p>GAN CFOP 16-03版</p>\n",
+            "content_html": "<p><img data-src=\"https://cdn.jsdelivr.net/gh/Onsaki/oimage/post/20250801164154973.jpg\" alt=\"GAN's CFOP 公式图\" title=\"GAN CFOP 16-03版\" /></p>\n",
             "tags": [
                 "学习笔记",
                 "学习"

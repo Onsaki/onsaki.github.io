@@ -10,8 +10,8 @@
         </author>
         <description>路边的茶楼人影错落，街上传来两三声吆喝。人前摇扇醒木拍桌，各位看官你细听分说</description>
         <language>zh-CN</language>
-        <pubDate>Wed, 13 Aug 2025 09:30:36 +0800</pubDate>
-        <lastBuildDate>Wed, 13 Aug 2025 09:30:36 +0800</lastBuildDate>
+        <pubDate>Fri, 22 Aug 2025 10:46:55 +0800</pubDate>
+        <lastBuildDate>Fri, 22 Aug 2025 10:46:55 +0800</lastBuildDate>
         <category term="个人博客" />
         <category term="shoka" />
         <category term="hexo主题" />
@@ -19,6 +19,33 @@
         <category term="这里应该没人看见" />
         <category term="所以广告位招租" />
         <category term="" />
+        <item>
+            <guid isPermalink="true">https://onsaki.com/hexo/hexo-3/</guid>
+            <title>计划把主题的图库更新一波4K超高清然后再压到1K</title>
+            <link>https://onsaki.com/hexo/hexo-3/</link>
+            <category term="关于hexo" scheme="https://onsaki.com/categories/hexo/" />
+            <category term="hexo" scheme="https://onsaki.com/tags/hexo/" />
+            <category term="图库" scheme="https://onsaki.com/tags/%E5%9B%BE%E5%BA%93/" />
+            <pubDate>Fri, 22 Aug 2025 10:46:55 +0800</pubDate>
+            <description><![CDATA[ &lt;h2 id=&#34;起因&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#起因&#34;&gt;#&lt;/a&gt; 起因&lt;/h2&gt;
+&lt;p&gt;主题默认的图库画质有点太糊了，原图虽然是 1080P 但画质极低，小屏幕上还好，但大屏幕上看就糊的不像个提速降费之后的体验。所以打算把主题的图源全部替换为 4K 高清图。&lt;/p&gt;
+&lt;h2 id=&#34;图源&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图源&#34;&gt;#&lt;/a&gt; 图源&lt;/h2&gt;
+&lt;p&gt;现在是打算从收藏的 wlop 的画里面选出来一部分做图源，但是 wlop 的图总感觉和主题的风格不太匹配，大多数图抖太灰暗了，不符合我阳光开朗大男孩的人设。&lt;/p&gt;
+&lt;p&gt;所以还得找点好看的图，暂时没头绪，反正也不急，我这 blog 也没人看，慢慢收集就是了，争取找他个百来张图。&lt;/p&gt;
+&lt;h2 id=&#34;图床&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#图床&#34;&gt;#&lt;/a&gt; 图床&lt;/h2&gt;
+&lt;p&gt;继续用 github 做图床，目前来看我自己的联通家宽裸连 github 问题不大，加载速度是稍微慢了一点，但反正也没人看，等真的有人看了再研究研究 &lt;code&gt;shokax&lt;/code&gt; 。&lt;/p&gt;
+&lt;h2 id=&#34;发牢骚&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#发牢骚&#34;&gt;#&lt;/a&gt; 发牢骚&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;shokax&lt;/code&gt;  我是一直想换过去，但是那个感觉对小白过于不友好，其实对我这种什么都不懂的小白，直接 git 安装可能是更好的办法。 &lt;code&gt;shokax&lt;/code&gt;  那个即食罐头我反复配置了三四十次了，没有一次能用的，不是少点这就是少点那，把我心态搞崩了，不然我也不会一直在这个停更几年的主题上靠着豆包修修改改。&lt;/p&gt;
+&lt;p&gt;但凡 &lt;code&gt;shokax&lt;/code&gt;  有一次配置成功我都早就把主题换成 &lt;code&gt;shokax&lt;/code&gt;  了，希望那个文档能稍微照顾一下纯小白吧。&lt;/p&gt;
+&lt;p&gt;但不照顾也无所谓，本来就是为爱发电的项目，而且 &lt;code&gt;shoka&lt;/code&gt;  我现在还能凑合着用，什么时候彻底不能用了再豁出命研究 &lt;code&gt;shokax&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;尾巴&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#尾巴&#34;&gt;#&lt;/a&gt; 尾巴&lt;/h3&gt;
+&lt;p&gt;最初建站的目的就是说一些在国内平台不方便说的话，主要就是骂傻逼。&lt;/p&gt;
+&lt;p&gt;但建站之后又懒得骂了。&lt;/p&gt;
+&lt;p&gt;站点的名字是 &lt;code&gt;Onsaki&lt;/code&gt; ，其实就是蒙语的 “你放屁” 的音，我只是把 q 改成了 k，让脏话不那么明显。&lt;/p&gt;
+&lt;p&gt;至于为什么懒得骂了，是因为这几年的各种对立我才想明白。脑残、脑瘫是疾病，是可以积极治疗减轻症状的。&lt;/p&gt;
+&lt;p&gt;但傻逼就是傻逼，傻逼不是病，傻逼就是傻逼。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://onsaki.com/pornhub/ph-3/</guid>
             <title>AV公司科普，看片一定要知道它的出处</title>
@@ -1702,46 +1729,6 @@ Crash Course: 学习技能&lt;br /&gt;
 &lt;p&gt;战争被限制在好战者的群体里，科研被和竞赛也照样不耽误。毕竟有战争就有科技爆发嘛，又消灭了好战分子，又不耽误科技进步，两全其美。&lt;/p&gt;
 &lt;p&gt;最后好战的得偿所愿死在战场上，热爱和平的人享受科技进步。&lt;/p&gt;
 &lt;p&gt;只要没有人喜欢战争了，和平就会来的更容易。&lt;/p&gt;
- ]]></description>
-        </item>
-        <item>
-            <guid isPermalink="true">https://onsaki.com/notes/2020-2021/</guid>
-            <title>农历新年快来了，才想起来的2020年终总结</title>
-            <link>https://onsaki.com/notes/2020-2021/</link>
-            <category term="闲散随笔" scheme="https://onsaki.com/categories/notes/" />
-            <category term="焦虑" scheme="https://onsaki.com/tags/%E7%84%A6%E8%99%91/" />
-            <pubDate>Sat, 06 Feb 2021 16:23:17 +0800</pubDate>
-            <description><![CDATA[ &lt;h3 id=&#34;2020总结&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#2020总结&#34;&gt;#&lt;/a&gt; 2020 总结&lt;/h3&gt;
-&lt;p&gt;其实也没什么好总结的，2020 可能是我长这么大过的最无聊最平淡的一年，抛去疫情因素的话。&lt;/p&gt;
-&lt;p&gt;开年不利是因为我错误的估计了一些人的不要脸程度，以为没事啥都没准备，导致家里防护用品库存为零，等到有明确的通报的时候已经断货，出门买菜靠着普通的口罩勉强应付。&lt;/p&gt;
-&lt;p&gt;幸运的是我所在的地区公告上没有确诊和疑似病例。开年有惊无险的在家里自闭了一个多月。&lt;/p&gt;
-&lt;p&gt;在家的时候也不是啥都没干，期间灵光一闪开始动键盘写小说，但是对大纲怎么写没概念，所以是想到哪写到哪。不出意外的写到五万字左右的时候已经完全脱离了我大小脑的掌控，故事越来越流水账，遂删除当作无事发生。&lt;/p&gt;
-&lt;p&gt;隔了半个多月又灵光一闪，又是写到五万字左右整个故事开始崩溃。这时候已经是二月下旬了。&lt;/p&gt;
-&lt;p&gt;实在是没什么事了，又想找点东西看看，翻着翻着微博发现了以前关注过的纹身小姐姐的微博，才想起来我好想以前想过学建模来着。看了下小姐姐推荐的教学的老师和他们的官网还有网上的一些看起来不像是水军的评价，感觉我可以，就交了定金报名。&lt;/p&gt;
-&lt;p&gt;三月初到五月份的全部精力都投入在学习建模渲染了，昼夜颠倒日思夜不想的在建模，但依然因为笨有几次没交作业，最后一堂课的作业至今没做完。&lt;/p&gt;
-&lt;p&gt;所以... 建模我说会吧有点吹，但要说不会吧，给我足够的时间还是能弄出来点东西的。&lt;/p&gt;
-&lt;p&gt;嗯，足！够！的时间。&lt;/p&gt;
-&lt;p&gt;说起来，第八节课的作业还是要做完的，就算错过点评时间了也得做完，不然感觉钱白花了。越想越亏！&lt;/p&gt;
-&lt;p&gt;五月份下旬去工地。也是去学东西，钢筋算料。目前为止可以说是没学会，主要是基础的知识和内容太过繁杂，要背很多东西，背一直是我的弱项，要是让我理解什么绝对不会这么难。而且这类的一些数值是必须记下来不能有误差的，起码误差不能太离谱，不然会出大问题。&lt;/p&gt;
-&lt;p&gt;大概从五月份到七月份去了记不清多少天，感觉没记住多少东西，今年工地开工的时候再去试试，收入挺高的，还不用加班，这种工作得把握住！&lt;/p&gt;
-&lt;p&gt;七月份之后一直到现在就都是混吃等死，还好会一丁点计算机方面的知识，还不至于把自己饿死，但也过的很拮据，连 3090 都买不起，急死了。&lt;/p&gt;
-&lt;p&gt;这几个月也有过几次灵光一闪，但都无一例外的五万字左右就全部崩溃，反正写的也很烂，也没有留的必要，就全删了。不然哪天不小心自己打开了看见也尴尬，没必要自己恶心自己。&lt;/p&gt;
-&lt;p&gt;2020 年要是除去疫情的一些糟心事过的真挺平淡的，基本都是混吃等死，没什么好总结的。但还是要留下一些文字来水字数，给以后的自己提个醒。&lt;/p&gt;
-&lt;h3 id=&#34;期待一下2021&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#期待一下2021&#34;&gt;#&lt;/a&gt; 期待一下 2021&lt;/h3&gt;
-&lt;p&gt;其实也没什么好期待的，丫的元旦刚过就给封了半个月，连家门都出不去，周围几个小区的入户门都贴了封条了，我在的村里大门也都是封条。差点以为要复刻 2020，还好半个月就解封了，但从超市之类的地方的情况来看，还是比较严峻，希望春运过后不要再有爆发了。&lt;/p&gt;
-&lt;p&gt;2021 要说最大的期望就是全世界的疫情就赶快完事，不然耽误了太多事情，尤其是耽误我买 3090 了。&lt;/p&gt;
-&lt;p&gt;疫情只要结束就有太多好玩的事情了，也不会哪天一个不小心就听到自己喜欢的人上天了的消息。&lt;/p&gt;
-&lt;p&gt;如果国内现在得情况没有放缓的态势的话，可能有一丝影响到我骑行回内蒙古的可能性。但更大的可能性是今年依旧没钱，骑行计划延后。&lt;/p&gt;
-&lt;p&gt;但最晚延后到 2023 年，如果 2023 年 9 月底之前我还没有骑行回内蒙古，我直播倒立拉稀！&lt;/p&gt;
-&lt;p&gt;然后是工作上的期望，希望自己努努力，能在 2021 年底有个半稳不稳的工作，好升级电脑。&lt;/p&gt;
-&lt;p&gt;其它的也没什么好说的了。&lt;/p&gt;
-&lt;p&gt;我不习惯做长远的目标，目标太长远的我很容易失去激情和希望。不想再重复一次 18 年的焦虑情绪，希望我这辈子最绝望的时刻仅有那一次。&lt;/p&gt;
-&lt;p&gt;虽然现在依旧有点半死不活的，但起码心情还不错，没真的跑到海里躺下过。&lt;/p&gt;
-&lt;p&gt;2021 了，周岁我都 25 了，再不做出一些改变就真的晚了。&lt;/p&gt;
-&lt;p&gt;我不怕无聊，不怕消逝，最怕的就是老。&lt;/p&gt;
-&lt;p&gt;怕老了没有年轻时的激情，没有年轻时体能去疯野。&lt;/p&gt;
-&lt;p&gt;最后，是对 2021 也是对以后生活的一个不切实际的愿望。&lt;/p&gt;
-&lt;p&gt;希望自己死之前一直年轻。&lt;/p&gt;
  ]]></description>
         </item>
     </channel>
